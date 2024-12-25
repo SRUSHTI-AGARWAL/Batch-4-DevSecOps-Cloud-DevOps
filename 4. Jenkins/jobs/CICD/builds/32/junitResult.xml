@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1304.vc85a_b_ca_96613">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/CICD/target/surefire-reports/TEST-com.example.bankapp.BankappApplicationTests.xml</file>
+      <name>com.example.bankapp.BankappApplicationTests</name>
+      <duration>6.074</duration>
+      <startTime>-1</startTime>
+      <properties/>
+      <time>6.074</time>
+      <nodeId>95</nodeId>
+      <enclosingBlocks>
+        <string>87</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build &amp; Publish Artifacts to Nexus</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>1.047</duration>
+          <startTime>-1</startTime>
+          <className>com.example.bankapp.BankappApplicationTests</className>
+          <testName>contextLoads</testName>
+          <skipped>false</skipped>
+          <keepTestNames>false</keepTestNames>
+          <properties/>
+          <stdout>18:35:36.685 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.bankapp.BankappApplicationTests]: BankappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:35:36.784 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.bankapp.BankappApplic
+...[truncated 20709 chars]...
+our security configuration must be updated before running your application in production.
+
+2024-11-03T18:35:41.288Z  INFO 169325 --- [bankapp] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-03T18:35:41.488Z  INFO 169325 --- [bankapp] [           main] c.e.bankapp.BankappApplicationTests      : Started BankappApplicationTests in 4.556 seconds (process running for 5.603)
+</stdout>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>6.074</duration>
+  <skipOldReports>false</skipOldReports>
+  <startTime>-1</startTime>
+  <stdioRetention>NONE</stdioRetention>
+  <keepTestNames>false</keepTestNames>
+  <keepProperties>false</keepProperties>
+</result>

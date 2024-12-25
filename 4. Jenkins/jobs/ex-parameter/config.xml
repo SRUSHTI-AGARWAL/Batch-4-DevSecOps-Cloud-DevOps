@@ -1,0 +1,76 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1436.vfa_244484591f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>Branch_name</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>2</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>Branch_name</name>
+          <description>name of the branch</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>main</string>
+              <string>Dev</string>
+              <string>develop</string>
+              <string>feature1</string>
+              <string>feature2</string>
+              <string>testing</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3969.vdc9d3a_efcc6a_">
+    <script>pipeline {
+    agent any
+    
+    // parameters{
+    //     string(name:&apos;Branch_name&apos;, defaultValue:&apos;main&apos;, description:&apos;name of the branch&apos;)
+    // }
+    
+    parameters{
+        choice(name:&apos;Branch_name&apos;, choices:[&apos;main&apos;, &apos;Dev&apos;, &apos;develop&apos;,&apos;feature1&apos;,&apos;feature2&apos;,&apos;testing&apos;], description:&apos;name of the branch&apos;)
+    }
+    
+    
+    stages {
+        stage(&apos;Git checkout&apos;) {
+            steps {
+                git branch: &quot;${params.Branch_name}&quot;, credentialsId: &apos;github-cred&apos;, url: &apos;https://github.com/SRUSHTI-AGARWAL/FullStack-Blogging-App.git&apos;
+            }
+        }
+        stage(&apos;Hello&apos;) {
+            steps {
+                echo &apos;Hello World&apos;
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

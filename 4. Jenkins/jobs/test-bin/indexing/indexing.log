@@ -1,0 +1,52 @@
+Started by user [8mha:////4K/v86KtkBqO/MFEggpHgMwf449gpzZRe1UgJgEfgLl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[Tue Dec 17 14:14:37 UTC 2024] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials github-cred
+ > git ls-remote --symref -- https://github.com/SRUSHTI-AGARWAL/Boardgame.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-fe18bbbf994a29574ac16618aa70c000/.git # timeout=10
+Setting origin to https://github.com/SRUSHTI-AGARWAL/Boardgame.git
+ > git config remote.origin.url https://github.com/SRUSHTI-AGARWAL/Boardgame.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials github-cred
+ > git ls-remote -h -- https://github.com/SRUSHTI-AGARWAL/Boardgame.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials github-cred
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch develop
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: develop (still at 873c26826e1e59ecf2b409e443d2056fd3ee5628)
+  Checking branch main
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: main (still at df72b7857b80fb5d9c4d6f62fca123ef7f595a63)
+  Checking branch feature
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: feature (still at 310d8fd11ed85a6d28cd3f18b178a19c7701e4d3)
+  Checking branch feature_add_button
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: feature_add_button (still at caddc93a85cb70a711ef29297725f6f9751400ac)
+  Checking branch Aditya
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: Aditya (still at 70ba155c9ac8dd0c13ccb7b5c4ec864dc2566bfc)
+  Checking branch feature_remove_button
+      ‘Jenkinsfile’ found
+    Met criteria
+Branch reopened: feature_remove_button (7bccf7a512f55807813e5566580deb6379f1de52)
+Scheduled build for branch: feature_remove_button
+  Checking branch nojenkinsfile
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+Processed 7 branches
+[Tue Dec 17 14:14:40 UTC 2024] Finished branch indexing. Indexing took 3.1 sec
+Finished: SUCCESS

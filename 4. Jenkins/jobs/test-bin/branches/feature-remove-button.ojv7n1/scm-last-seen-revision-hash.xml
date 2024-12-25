@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.GitBranchSCMRevision plugin="git@5.5.2">
+  <head class="jenkins.plugins.git.GitBranchSCMHead">
+    <name>feature_remove_button</name>
+  </head>
+  <hash>7bccf7a512f55807813e5566580deb6379f1de52</hash>
+</jenkins.plugins.git.GitBranchSCMRevision>

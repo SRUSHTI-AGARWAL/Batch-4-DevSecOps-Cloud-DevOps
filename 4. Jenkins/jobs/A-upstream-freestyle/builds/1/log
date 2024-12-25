@@ -1,0 +1,8 @@
+Started by user [8mha:////4K/v86KtkBqO/MFEggpHgMwf449gpzZRe1UgJgEfgLl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/A-upstream-freestyle
+[A-upstream-freestyle] $ /bin/sh -xe /tmp/jenkins14018648791336692470.sh
++ echo Hello from A
+Hello from A
+Triggering a new build of [8mha:////4KMGx+IlBvPcGLVJ5KAikOE7LY8S5hamrDAeS2FkPgM9AAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYZ/az8JH0n3ZT88rzikqLUxFzdtKLU1OKSypxUfQDTz+2Z0QAAAA==[0mB-downstream-freestyle
+Finished: SUCCESS

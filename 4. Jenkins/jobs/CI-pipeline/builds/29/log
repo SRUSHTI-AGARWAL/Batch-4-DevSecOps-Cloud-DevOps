@@ -1,0 +1,638 @@
+Started by user [8mha:////4K/v86KtkBqO/MFEggpHgMwf449gpzZRe1UgJgEfgLl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4NZ4NKMxErSdMkNUbYJI3vUJguS2pHF4CEIx8mtjSvBWAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4BSpg4TRn7xp3c7U1Ilszi4N9LtQDBJQlKdUgZ2g+BkQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4LUtFaJtX/nAdmzo4va5HM0Ms0u3pihwSpHQU1xKnmy0AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/CI-pipeline
+[8mha:////4E4assbewjc2wBKIbJM7k8U1Xi4YFhJN2cqPnODdvdRZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4B5rHIomgT/6YhkOR8Oe1M/xrMwlGmd8P4ebzcefKy5vAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] tool
+[8mha:////4NAtE52ioUNbVM5sYw9HFnDYpCQqkYf5ym+A8NszgDniAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] withEnv
+[8mha:////4J7tVjzFF5ThRqoRljVU2IemSAW9x7Rm62y5JHhmblGwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] {
+[8mha:////4PFplbVm2z5OF2qJrylThsJHISWpBH7nltM7oaAHv1ekAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] stage
+[8mha:////4JaIMcmqR6r/lvv1Q1B2tsmqXwzEwwMXq5X6/tfxzGOtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4Kxa2S15hFmvrldJ6QqHe8nUHHwfl7R+v0eWWJ6sUCTGAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBEiEqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBjJ8j2gny37T6VOYoyvQAAAA==[0m[Pipeline] tool
+[8mha:////4CXWrYbxpsuWylqs8GmCtToeuEtrNmY9sDt4BpWkctQBAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KE0Rgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmXpDtBXlZ9h/UCJErvQAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4HVdDZ8IyQwrYA/t9r3n1p/GvEa8wcQWP9a9epNPagp6AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb3eCbP8BWAQ01r0AAAA=[0m[Pipeline] }
+[8mha:////4I0lrMoOuWGguAjLbm7MrtKedYLoiYLfO/yNRn4w/ihYAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AH4dU5y9AAAA[0m[Pipeline] // stage
+[8mha:////4PddAj3yiHHUW/pZ0bG02CBieZEU5C7VDWhpFovezuTWAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJCQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HZfo7lG6HAWVPBAAAA[0m[Pipeline] withEnv
+[8mha:////4GXWrwquhRzp866GfrF6FOWrkUJfLh7vOz9CmK60lQamAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4DJ5Pda7Gm8uVUpy2wMbMCJ8h0AkZ+BJ83QU3TFgIQ+4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4EcgFqaqv6s3PcF9kGgRzFmsAhSTJJIFdBL3vKjS8MoUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Clean Workspace)
+[8mha:////4FdJ1nS27uAgU1r9KddM/T1WeCI8UXnNaEojgDLv3sTlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] tool
+[8mha:////4HiFsiA2LKUe3bhN6jbtjx/477cf+PSqk7xHOqCrxDKsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN1TuT7W+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4DpbjQrFWWAZyvpHXoWwwV8wILlX2NPXutnYK374RStKAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQG6fT8PwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4FKGjr98aK0l+Jux/3wDuktQFsldxufbDl10NUJNp2R5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4IzeoAVCSggMm/lyBGBkoPAhKJkVA/2vyCDSo+8XpgW9AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+[8mha:////4I3mcdNGP+WyAaBZAZM8JZ8tM9uas9ivQri1YEqR4SbEAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23f36y8/b4AAAA=[0m[Pipeline] }
+[8mha:////4HhTlkyG4+wl+o8J3k2iQ5G49kyjE1bA/TBc2jLI4ueWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvGsvpe+AAAA[0m[Pipeline] // withEnv
+[8mha:////4MgTRYnsUm+P2hZcQqZY29ystojZqgDwJ8E1pTaR2WAqAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] }
+[8mha:////4NKDSpVASFMqn3Gc1YNsce36ZIsqPtCtD2Vf9HDmgu89AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKNIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QEM+zgYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BwGGVr80Kdlx5NU9sGTFY0iQnUiLMU3KRp+hMOSNajMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICEG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm/D9FZKwgAAAA==[0m[Pipeline] stage
+[8mha:////4Hf/rm+tq9QaZFsoCpapHKko2rlWHoHGGCC5Srv2T6XlAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Git Checkout)
+[8mha:////4HJRd/H3qs2dHMngNbRIUWhwO3wuWlCI4zzKSujTGF7XAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] tool
+[8mha:////4Aqp/KIML2Cgks1jxDp79IKr96inivPgwif/ROQR/1t2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw959s4fvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4I/b1bT7S8B5eY1MvOQ2HjcpKl/rU1HrnPB8MIYtgThXAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIKEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g2dg3KGwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4DUa150zL4frO7RgdOq6YJSwc8XruCK43Kj+wSr5ta5FAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] {
+[8mha:////4Cw+SXq6Mp0AmsNNC+nQC+QaixlRhTNQZE19nrZ0/VEjAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential github-cred
+Cloning the remote Git repository
+Cloning repository https://github.com/SRUSHTI-AGARWAL/Multi-Tier-BankApp-CI.git
+ > git init /var/lib/jenkins/workspace/CI-pipeline # timeout=10
+Fetching upstream changes from https://github.com/SRUSHTI-AGARWAL/Multi-Tier-BankApp-CI.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials github-cred
+ > git fetch --tags --force --progress -- https://github.com/SRUSHTI-AGARWAL/Multi-Tier-BankApp-CI.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/SRUSHTI-AGARWAL/Multi-Tier-BankApp-CI.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e141a0539092bb0d0ed1a03aebb5e670715d2d44 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e141a0539092bb0d0ed1a03aebb5e670715d2d44 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b main e141a0539092bb0d0ed1a03aebb5e670715d2d44 # timeout=10
+Commit message: "Update pom.xml"
+ > git rev-list --no-walk e141a0539092bb0d0ed1a03aebb5e670715d2d44 # timeout=10
+[8mha:////4LCVyew0FGZzhrtzX0jUeeNBC0aAXO+BKFkmLZmPBo3pAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4GN1SzudnzJ9zX7HX4nRuSRBAztGUGTBLh/8bAjNfrFlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // withEnv
+[8mha:////4LnjdGh95/2qH3UxK2HWi4WFGNTSGHcXF374yrYgUV1OAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDfI7acr4AAAA=[0m[Pipeline] }
+[8mha:////4MpkKT947NR6tfozMJ6Pn7nqMzoV8yUQlGYYq7Sr6SkKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQZECUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w9IQDkpvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NPkp+4ocuRLBbSdMEFjIcBtH//Sf7+hw+twbtEZ4pDnAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSRARBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm1227f7zrN6iTXcdwgAAAA==[0m[Pipeline] stage
+[8mha:////4JSZiKD+h7f+H3IF+pUOByF7vmQFdtB+O/7e7iax81+vAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] { (Compile)
+[8mha:////4Izi+7DpBbOUiFQyIFG3gWjzcT16v58MgcUA7c9a9B/2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] tool
+[8mha:////4FrYoCmD7m6OGMlC9tq8sv7eiNUQLlX1qkLISfRIU5JgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+X2kdpvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4BGCvEfqRSbc05OA0JmKq2DUdddjp/5z9z4/VRp1AwPtAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAhaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0SXGqfwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4FAznLJ6C/z9K8s57iDDBE0tTFg5gf1UWri8rr+p1OIGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] {
+[8mha:////4E/mBevvqCpQYcIbKMMdGVQLZ+SNnEWXHZd8y/qgL8qGAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] sh
++ mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.example:bankapp >-------------------------
+[INFO] Building bankapp 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ bankapp ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ bankapp ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 8 source files with javac [debug parameters release 17] to target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.829 s
+[INFO] Finished at: 2024-10-22T15:19:16Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4BPZ4vM068euicbnziT7YR4SeSlN31vprgWQLpSB33JgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BlK8YfC+AAAA[0m[Pipeline] }
+[8mha:////4KshIcQjmggeOrHvdudMHSLBYGMHNaKN21lnaHi68tsfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFq/vIBvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4EXPNxD6CvAgZg7iZiNS53exhtNiZIe6tETC7wmn0WUuAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgIQQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAgGI9Er4AAAA=[0m[Pipeline] }
+[8mha:////4PRUyp73xajZdMSS9knRrTRRiikhbFQU8bbwhvmSW1jrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQBEJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w/D4GyUvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DZFgV2a0XukJVprDoSjH8agGny6FqbGKtIm3NDYcParAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAg1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm+JoIwTwgAAAA==[0m[Pipeline] stage
+[8mha:////4MG61OebiiqVrXxvLJQkbcsNhkYBbDl/C9wo/G8jNNvCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] { (test)
+[8mha:////4IbC8i11L1+MdCJwhJnkQQjqjIWWsAfhNgfNDkX4m6bZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] tool
+[8mha:////4EUi6rJRsMv6MJzvjSlcJXQBkMxMuw4LYNL3CrrqNLbfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzevXxC+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4DRdIEC6j/7YAQYn5mZ+HxwZvMFQjGeIerTOdLuh5IqvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCTEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD2YfMWbCAAAA[0m[Pipeline] withEnv
+[8mha:////4Cpi2Y/nm5pw8SYhY02hRONolk+u7ZYYkXbQgiaYthZSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] {
+[8mha:////4ECXZYy4GaAtDaCRpf91sVFkw45YzhEdVjAQfZaN+Iz+AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] sh
++ mvn test -DskipTests=true
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.example:bankapp >-------------------------
+[INFO] Building bankapp 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ bankapp ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ bankapp ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ bankapp ---
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CI-pipeline/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ bankapp ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ bankapp ---
+[INFO] Tests are skipped.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.609 s
+[INFO] Finished at: 2024-10-22T15:19:21Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4NPv+rcU8HH7nmN9++zOMP5CkuhpV+Ezd0XLVX3bgLL/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bqph/Ve+AAAA[0m[Pipeline] }
+[8mha:////4LUYmR1IzihGFabEtH6HNoQ4mp3b91lXDt4eosMR620PAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGsJ8UCvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LfLHFpUrqqN/4lUi1p0DkUALUfphqTzPWzTtYSsqAcZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCg4SEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHDxJpqvgAAAA==[0m[Pipeline] }
+[8mha:////4BWEIMOpoqLHATSvBicApoxJn5XtmGYXjC7fsNoJ7+CVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQBEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QGDngHBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4I9YtChv17yENHrfKv8Tdw59B+oda6LjlDC8/pQI3hv4AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBlhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3u2z7zedZvQFo4ByjwgAAAA==[0m[Pipeline] stage
+[8mha:////4JY0VBe3xV/xg6JxdDxbjFEpijF4tNqoYMIXN4VadZcVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] { (file System Scan)
+[8mha:////4IJZTpm69AFfhpCJjhRBH4eKxA6Jg0628U4gMUQyFfcdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzkd4Tq+AAAA[0m[Pipeline] tool
+[8mha:////4HWSlKPalyCCPmq1gg1jfPEMBw7MhP9F/pEokR7J0qSwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAF4LPojvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4ETTdlM8jkHV4fOMyQu2BQ1w2Zs8NDhIL2iB5DLAOsufAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSIgFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfABzOMz8wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4ESA6uXjGgxVuv+nZ9hMW1r5Nd3x06hdzOaiX48WaQsbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAZRHx0bCAAAA[0m[Pipeline] {
+[8mha:////4GrUoLua3tjNYYTT4ShLtQ0cWTa7DOC5PKxR6WtFJg4FAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkQZR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fLvzCqr4AAAA=[0m[Pipeline] sh
++ trivy fs --format table -o fs.html .
+2024-10-22T20:49:22+05:30	INFO	[vuln] Vulnerability scanning is enabled
+2024-10-22T20:49:22+05:30	INFO	[secret] Secret scanning is enabled
+2024-10-22T20:49:22+05:30	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to disable secret scanning
+2024-10-22T20:49:22+05:30	INFO	[secret] Please see also https://aquasecurity.github.io/trivy/v0.56/docs/scanner/secret#recommendation for faster secret detection
+2024-10-22T20:49:22+05:30	WARN	[pom] Dependency version cannot be determined. Child dependencies will not be found.	details="https://aquasecurity.github.io/trivy/v0.56/docs/coverage/language/java#empty-dependency-version"
+2024-10-22T20:49:22+05:30	INFO	Number of language-specific files	num=1
+2024-10-22T20:49:22+05:30	INFO	[pom] Detecting vulnerabilities...
+[8mha:////4M4k8D+A+QMN+zRLrSuDgVv1ZrRbMF9Ws1MZV7vRHHODAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BsfLY/G+AAAA[0m[Pipeline] }
+[8mha:////4NP6g5gDB0Bv1prnb6sm75m+TFrL8cPN0eWbuao4zdlFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGESTJ3vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4GhmEuTbAoLgR81qkq4GeUGhWdBUpcn/WAOBnlgKeZs3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGubgTMvgAAAA==[0m[Pipeline] }
+[8mha:////4By8Nj35AVCmvEWRtfil12WzmdJJX3rJpp8PMg+laIodAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSCgpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP0QEezq+AAAA[0m[Pipeline] // stage
+[8mha:////4MpLGttKDW3AErhvF+zQ7LElTkV2cSC4feyja9skNkelAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUHRADYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8u2bz7P6g15ODfOwgAAAA==[0m[Pipeline] stage
+[8mha:////4K2zlGeiPl4cZQmCbFI9Dygdtz23dygx/wmE8uvzOxoFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] { (Sonar Analysis)
+[8mha:////4CjLz2/qOrIiIxBpGheFRhCOPqqGisGUueQCPNTC45dTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFMXHrfvgAAAA==[0m[Pipeline] tool
+[8mha:////4PpEyV58DtmSDu+LRE5ypgBfV4hP82LA3R/bAtjlQyy7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpT77ad24Q2LyjuQvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MUGiIqK9Bpi6g8jO+xKLF4yycDat+wxTm/lgBhKLyf5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQkIMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cgP+xm28/P4gMMyqCTwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4NNRcCjy4tJhVQCfGOUgHv0hJ7x//KGjgruSsXzVb1xiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxASGtDzzCAAAA[0m[Pipeline] {
+[8mha:////4E3klplVJsnWdzso55kL4Q/VTCElSxLKRZ1O2095npsVAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0owNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPhRixbsIAAAA=[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonar-server
+[8mha:////4LDhfvKLC3kj7M3seAhMS7F6i+6acSG2FdxHBf9EFasyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] {
+[8mha:////4DgtrC/2jIRIgwWS68eeqlCW74EPLXsNVJbEmHeUwG0CAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eiOvlgb4AAAA=[0m[Pipeline] sh
++ /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/bin/sonar-scanner -Dsonar.projectName=bankapp -Dsonar.projectKey=bankapp -Dsonar.java.binaries=target
+15:19:23.779 INFO  Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/conf/sonar-scanner.properties
+15:19:23.784 INFO  Project root configuration file: NONE
+15:19:23.798 INFO  SonarScanner CLI 6.2.1.4610
+15:19:23.799 INFO  Java 17.0.12 Ubuntu (64-bit)
+15:19:23.800 INFO  Linux 5.15.153.1-microsoft-standard-WSL2 amd64
+15:19:23.830 INFO  User cache: /var/lib/jenkins/.sonar/cache
+15:19:24.588 INFO  Communicating with SonarQube Server 9.9.7.96285
+15:19:25.206 INFO  Load global settings
+15:19:25.282 INFO  Load global settings (done) | time=76ms
+15:19:25.285 INFO  Server id: 147B411E-AZKwfQEWndzP9NV4y7Kf
+15:19:25.296 INFO  User cache: /var/lib/jenkins/.sonar/cache
+15:19:25.307 INFO  Load/download plugins
+15:19:25.307 INFO  Load plugins index
+15:19:25.362 INFO  Load plugins index (done) | time=55ms
+15:19:25.482 INFO  Load/download plugins (done) | time=175ms
+15:19:26.034 INFO  Process project properties
+15:19:26.035 INFO  Process project properties (done) | time=1ms
+15:19:26.037 INFO  Execute project builders
+15:19:26.039 INFO  Execute project builders (done) | time=2ms
+15:19:26.042 INFO  Project key: bankapp
+15:19:26.042 INFO  Base dir: /var/lib/jenkins/workspace/CI-pipeline
+15:19:26.042 INFO  Working dir: /var/lib/jenkins/workspace/CI-pipeline/.scannerwork
+15:19:26.049 INFO  Load project settings for component key: 'bankapp'
+15:19:26.074 INFO  Load project settings for component key: 'bankapp' (done) | time=25ms
+15:19:26.214 INFO  Auto-configuring with CI 'Jenkins'
+15:19:26.218 INFO  Load quality profiles
+15:19:26.290 INFO  Load quality profiles (done) | time=72ms
+15:19:26.294 INFO  Load active rules
+15:19:28.152 INFO  Load active rules (done) | time=1858ms
+15:19:28.159 INFO  Load analysis cache
+15:19:28.178 INFO  Load analysis cache (375 bytes) | time=19ms
+15:19:28.235 INFO  Load project repositories
+15:19:28.258 INFO  Load project repositories (done) | time=23ms
+15:19:28.294 INFO  Indexing files...
+15:19:28.295 INFO  Project configuration:
+15:19:28.452 INFO  22 files indexed
+15:19:28.453 INFO  19 files ignored because of scm ignore settings
+15:19:28.455 INFO  Quality profile for java: Sonar way
+15:19:28.456 INFO  Quality profile for web: Sonar way
+15:19:28.456 INFO  Quality profile for xml: Sonar way
+15:19:28.456 INFO  ------------- Run sensors on module bankapp
+15:19:28.554 INFO  Load metrics repository
+15:19:28.575 INFO  Load metrics repository (done) | time=21ms
+15:19:29.950 INFO  Sensor JavaSensor [java]
+15:19:29.963 INFO  Configured Java source version (sonar.java.source): none
+15:19:29.968 INFO  JavaClasspath initialization
+15:19:29.970 INFO  JavaClasspath initialization (done) | time=2ms
+15:19:29.970 INFO  JavaTestClasspath initialization
+15:19:29.970 INFO  JavaTestClasspath initialization (done) | time=0ms
+15:19:29.980 INFO  Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+15:19:29.983 INFO  Using ECJ batch to parse 9 Main java source files with batch size 101 KB.
+15:19:30.183 INFO  Starting batch processing.
+15:19:30.613 INFO  The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+15:19:31.345 INFO  100% analyzed
+15:19:31.346 INFO  Batch processing: Done.
+15:19:31.346 INFO  Did not optimize analysis for any files, performed a full analysis for all 9 files.
+15:19:31.348 WARN  Dependencies/libraries were not provided for analysis of SOURCE files. The 'sonar.java.libraries' property is empty. Verify your configuration, as you might end up with less precise results.
+15:19:31.348 WARN  Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+15:19:31.348 WARN  Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+15:19:31.349 INFO  No "Test" source files to scan.
+15:19:31.349 INFO  No "Generated" source files to scan.
+15:19:31.349 INFO  Sensor JavaSensor [java] (done) | time=1399ms
+15:19:31.349 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+15:19:31.350 INFO  'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+15:19:31.350 INFO  No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+15:19:31.350 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=1ms
+15:19:31.350 INFO  Sensor CSS Rules [javascript]
+15:19:32.756 WARN  Error when running: 'node -v'. Is Node.js available during analysis?
+15:19:32.757 INFO  Hit the cache for 0 out of 0
+15:19:32.757 INFO  Miss the cache for 0 out of 0
+15:19:32.758 INFO  Sensor CSS Rules [javascript] (done) | time=1408ms
+15:19:32.758 INFO  Sensor C# Project Type Information [csharp]
+15:19:32.758 INFO  Sensor C# Project Type Information [csharp] (done) | time=0ms
+15:19:32.758 INFO  Sensor C# Analysis Log [csharp]
+15:19:32.783 INFO  Sensor C# Analysis Log [csharp] (done) | time=24ms
+15:19:32.783 INFO  Sensor C# Properties [csharp]
+15:19:32.783 INFO  Sensor C# Properties [csharp] (done) | time=0ms
+15:19:32.783 INFO  Sensor SurefireSensor [java]
+15:19:32.783 INFO  parsing [/var/lib/jenkins/workspace/CI-pipeline/target/surefire-reports]
+15:19:32.784 INFO  Sensor SurefireSensor [java] (done) | time=1ms
+15:19:32.784 INFO  Sensor HTML [web]
+15:19:32.863 INFO  Sensor HTML [web] (done) | time=79ms
+15:19:32.864 INFO  Sensor XML Sensor [xml]
+15:19:32.867 INFO  1 source file to be analyzed
+15:19:33.012 INFO  1/1 source file has been analyzed
+15:19:33.013 INFO  Sensor XML Sensor [xml] (done) | time=149ms
+15:19:33.013 INFO  Sensor TextAndSecretsSensor [text]
+15:19:33.018 INFO  15 source files to be analyzed
+15:19:33.042 INFO  15/15 source files have been analyzed
+15:19:33.042 INFO  Sensor TextAndSecretsSensor [text] (done) | time=29ms
+15:19:33.042 INFO  Sensor VB.NET Project Type Information [vbnet]
+15:19:33.043 INFO  Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+15:19:33.043 INFO  Sensor VB.NET Analysis Log [vbnet]
+15:19:33.062 INFO  Sensor VB.NET Analysis Log [vbnet] (done) | time=19ms
+15:19:33.062 INFO  Sensor VB.NET Properties [vbnet]
+15:19:33.062 INFO  Sensor VB.NET Properties [vbnet] (done) | time=0ms
+15:19:33.062 INFO  Sensor IaC Docker Sensor [iac]
+15:19:33.064 INFO  1 source file to be analyzed
+15:19:33.125 INFO  1/1 source file has been analyzed
+15:19:33.125 INFO  Sensor IaC Docker Sensor [iac] (done) | time=63ms
+15:19:33.129 INFO  ------------- Run sensors on project
+15:19:33.168 INFO  Sensor Analysis Warnings import [csharp]
+15:19:33.168 INFO  Sensor Analysis Warnings import [csharp] (done) | time=0ms
+15:19:33.168 INFO  Sensor Zero Coverage Sensor
+15:19:33.176 INFO  Sensor Zero Coverage Sensor (done) | time=8ms
+15:19:33.177 INFO  Sensor Java CPD Block Indexer
+15:19:33.191 INFO  Sensor Java CPD Block Indexer (done) | time=14ms
+15:19:33.197 INFO  SCM Publisher SCM provider for this project is: git
+15:19:33.198 INFO  SCM Publisher 1 source file to be analyzed
+15:19:33.242 INFO  SCM Publisher 0/1 source files have been analyzed (done) | time=43ms
+15:19:33.242 WARN  Missing blame information for the following files:
+15:19:33.243 WARN    * fs.html
+15:19:33.243 WARN  This may lead to missing/broken features in SonarQube
+15:19:33.249 INFO  CPD Executor 4 files had no CPD blocks
+15:19:33.250 INFO  CPD Executor Calculating CPD for 10 files
+15:19:33.270 INFO  CPD Executor CPD calculation finished (done) | time=19ms
+15:19:33.313 INFO  Analysis report generated in 40ms, dir size=198.5 kB
+15:19:33.338 INFO  Analysis report compressed in 24ms, zip size=57.2 kB
+15:19:33.399 INFO  Analysis report uploaded in 61ms
+15:19:33.400 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=bankapp
+15:19:33.400 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+15:19:33.400 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=AZK0z9kLndzP9NV4zFER
+15:19:33.832 INFO  Analysis total time: 8.234 s
+15:19:33.833 INFO  EXECUTION SUCCESS
+15:19:33.834 INFO  Total time: 10.091s
+[8mha:////4Di9tmhTQgjW7CXcpNNK+lblDGuHaxKWeHAO4xOE4pjmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCRyREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP97N89u+AAAA[0m[Pipeline] }
+[8mha:////4KQYSpVvfsVKs0nyddLI/kO1GwjvLqmG/yfi6SiuA/l1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRVZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QHqAxCAvgAAAA==[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4HxsOab788b8GkMj5r9b3PFBahtAKzxm2BA8ZmLyi/T5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUQASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330A0kGDcb4AAAA=[0m[Pipeline] }
+[8mha:////4GFvhvLZQ2gJuGd9uUCuu1eHvVew7uap8QwJKBL/D/kgAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAQSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AzcPWI74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4L/FMZGcbzTgdRFDRjjZtMOOoDghhFKnp3tn6YWnTbXXAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh12u/fYD1ma3oL4AAAA=[0m[Pipeline] }
+[8mha:////4GzKw3DEU2CYNsaikxyr7oE7ruuD08V/qwe6dcN5+PCWAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgQSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334AyeTi8r4AAAA=[0m[Pipeline] // stage
+[8mha:////4N6xJ798eOVgBkVGws8jWVsJHSWw5qxTEouWPBPsfZkgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDCAk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbfvd5Vm8oeHolwgAAAA==[0m[Pipeline] stage
+[8mha:////4GaBTwPwOCHhuow1cTXEw0Y3U/75XeOlnAMCrwfSokQLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAR33berCAAAA[0m[Pipeline] { (Build & Publish Nexus)
+[8mha:////4LP0GMYUedPILtM+sGedlYb/qdUF0cZukuXb2SNnoAx5AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSEglR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fsf/KvL4AAAA=[0m[Pipeline] tool
+[8mha:////4NWJ2KCNbLNDqLCZnQ5jfYGJTvkwfAOiM0YgSw+PEqIoAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/e8M7Rpb4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4PZY9q7pMm+iuTZWf/fufCTXFgMmThZBPvy+kKYS566WAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUDRDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOVum22/+TyrN9ETkZDCAAAA[0m[Pipeline] withEnv
+[8mha:////4AIZSWQKt2HplF03fzXvSZD1TuPSQZv0EPsWHmBushMXAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] {
+[8mha:////4LoJ7E3jHBKdqBF+oz4MqzgjJFB5JsPwQsYmK+FBelhXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation provided by the build agent
+[withMaven] using Maven global settings.xml 'maven-settings-srushti' with NO Maven servers credentials provided by Jenkins
+[withMaven] using Maven installation 'maven3'
+[withMaven] found Maven version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[8mha:////4Pb+k/9tQCXkTf2CZbX59kqmHi+aJe586QPbIyvIEO5BAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1KB9/zCAAAA[0m[Pipeline] {
+[8mha:////4J/5rVhb3O+K0h6fMz1LEpUEsl0hPhBgZoEC9yBUZy0nAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNwf+WCm+AAAA[0m[Pipeline] sh
++ mvn deploy -DskipTests=true
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/CI-pipeline@tmp/withMaven25840587/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/CI-pipeline@tmp/withMaven25840587" 
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven3
+Java version: 17.0.12, vendor: Ubuntu, runtime: /usr/lib/jvm/java-17-openjdk-amd64
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.15.153.1-microsoft-standard-wsl2", arch: "amd64", family: "unix"
+[INFO] [jenkins-event-spy] Generate /var/lib/jenkins/workspace/CI-pipeline@tmp/withMaven25840587/maven-spy-20241022-151936-3561928775782903482782.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.example:bankapp >-------------------------
+[INFO] Building bankapp 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[8mha:////4ICHrxCTG9uM4WSeaH032WGWqShVMNrtMMVHnDI0rDhGAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ bankapp ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 5 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ bankapp ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ bankapp ---
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/CI-pipeline/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ bankapp ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ bankapp ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ bankapp ---
+[INFO] Building jar: /var/lib/jenkins/workspace/CI-pipeline/target/bankapp-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.3:repackage (repackage) @ bankapp ---
+[INFO] Replacing main artifact /var/lib/jenkins/workspace/CI-pipeline/target/bankapp-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/lib/jenkins/workspace/CI-pipeline/target/bankapp-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] --- install:3.1.3:install (default-install) @ bankapp ---
+[INFO] Installing /var/lib/jenkins/workspace/CI-pipeline/pom.xml to /var/lib/jenkins/.m2/repository/com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-SNAPSHOT.pom
+[INFO] Installing /var/lib/jenkins/workspace/CI-pipeline/target/bankapp-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- deploy:3.1.3:deploy (default-deploy) @ bankapp ---
+[INFO] Downloading from maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/0.0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/0.0.1-SNAPSHOT/maven-metadata.xml (771 B at 9.3 kB/s)
+[INFO] Uploading to maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-20241022.151936-19.pom
+[INFO] Uploaded to maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-20241022.151936-19.pom (2.6 kB at 39 kB/s)
+[INFO] Uploading to maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-20241022.151936-19.jar
+[INFO] Uploaded to maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-20241022.151936-19.jar (52 MB at 78 MB/s)
+[INFO] Downloading from maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/maven-metadata.xml
+[INFO] Downloaded from maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/maven-metadata.xml (278 B at 8.2 kB/s)
+[INFO] Uploading to maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/0.0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Uploaded to maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/0.0.1-SNAPSHOT/maven-metadata.xml (771 B at 10 kB/s)
+[INFO] Uploading to maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/maven-metadata.xml
+[INFO] Uploaded to maven-snapshots: http://localhost:8081/repository/maven-snapshots/com/example/bankapp/maven-metadata.xml (278 B at 4.2 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.717 s
+[INFO] Finished at: 2024-10-22T15:19:40Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /var/lib/jenkins/workspace/CI-pipeline@tmp/withMaven25840587/maven-spy-20241022-151936-3561928775782903482782.log
+[8mha:////4CZ4O7TiSQtRAZi3Fol/kFsXoEa8ABzRSkkgTnqhBASHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHfoxgkvgAAAA==[0m[Pipeline] }
+[withMaven] artifactsPublisher - Archive artifact pom.xml under com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-SNAPSHOT.pom
+[withMaven] artifactsPublisher - Archive artifact target/bankapp-0.0.1-SNAPSHOT.jar under com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-SNAPSHOT.jar
+[withMaven] junitPublisher - Archive test results for Maven artifact com.example:bankapp:jar:0.0.1-SNAPSHOT generated by maven-surefire-plugin:test (default-test): target/surefire-reports/*.xml
+[withMaven] junitPublisher - Jenkins [8mha:////4CQVpi7o0YTm94GQi2JowxNkKGoH/EIsL0SG9imn81nHAAAAqR+LCAAAAAAAAP9djLsNwjAUAB9BMAAVQowAdkcRlIoGpIiGCaxg+RPzbNnPKKzBGtAwBOOwA0TpuOauuucHJinCUudz8sgaj8k7yfa3IKMz2B49yU31eFX38C6gOMDUSVSkaxjn6AhmtRVXwZ1AxU8UDaptF2Hxt9sN7mcwMCoAuvCLOcFKE4VUch5cVgYTsxLb3sZzm9HQWhCJRl8kUvoC5Q3UlLEAAAA=[0mJUnit Attachments Plugin not found, can't publish test attachments.
+[withMaven] junitPublisher - Jenkins [8mha:////4AsJBAmKflhnJdeikNcN5yBQgEZOO0gqZjXEGyKMPAHXAAAAqh+LCAAAAAAAAP9djLENwjAQAJ8gGIASITGB444ClIoGpIiGCSxibCevt2V/ULIGa0DDEIzDDhCl45q76p4fmKUIK9tWyVN+8ZQ86vzQBx3RUXPyrDfF41XcwzuD7Ahz1GTYljBtIzIsylrdlERFRp45OjK7LsLyb7cfPcxgZJIBdOEXawZhmUPaShmwNY5SXmtqBjsvr6iaXrBOLKyiCnX8Aju+i4CyAAAA[0mJUnit Flaky Test Handler Plugin not found, can't publish JUnit flaky tests reports.
+Recording test results
+No test report files were found. Configuration error?
+None of the test reports contained any result
+[Checks API] No suitable checks publisher found.
+[withMaven] Jenkins [8mha:////4PcPKkmwDYUGkSLcUslokZZIvBIJtcRwfXN09zyqEpsqAAAAuR+LCAAAAAAAAP9djDEOgjAUQL8YXU0cjTcw0s1BwqLRiBJiwgkINOVD89u0ReEaXkMXD+FxvIMaNt/y3vQebxhZA/OyKawiP1dkleT+odPcSKQ6UY6vwvszvOmXB14EY8lJuDKGYWOkg2lcZZeMyYwES51BEkFrYPa32/b+zaBn4AG0+hsTB0HpnLZrxq5Yo19xqpHsMkdfGcEKtFpmHTvuklOUpGyPVGwaYRdn2QikDyzr+9fAAAAA[0mFindBugs Plugin not found, don't display org.codehaus.mojo:findbugs-maven-plugin:findbugs results in pipeline screen.
+[withMaven] jgivenPublisher - Jenkins [8mha:////4NjDtn5/M2WyyIx78DNrP3dopOFmrYhjN9dW/8NCbqejAAAAtR+LCAAAAAAAAP9djDEKwjAUQL8V3VwcxRsIyaSD0klEW0sReoJiQ/rb8BOStLbX8Bq6eAiP4x1U3HzLe9O7v2DkLMzLpnCa2FmT00qwQ2+EVUh1qr1YhbdHeDXPAIIIxkqQ9GUCw8YqD9Okytucq5wkz7xFkpvOwuxvt/35O4MfgwCgM5+YeFiW3hu35vyCNbJKUI3kGGpeoDMq73m8S49RmvF4j62gxUk1EukN/YxMoroAAAA=[0mJGiven Plugin not found, do not archive jgiven reports.
+[withMaven] Jenkins [8mha:////4Hgoo5cCO8vzpeo+WIu/fHy6pGW3nPhPcK5tBGx21ZYgAAAAvB+LCAAAAAAAAP9djMEJwjAUQL8VHUBv4gbF5uZBKR5EsFqKUBcIbUjThJ+QpNqu4Rp6cQjHcQeV3nyX907v8YaRszCvmtJpjAqNTisW7TvDrBIoM+3ZMr4/45t5BRAkMFYMua9SGDZWeZikNb1QoihyknsrkK9bC7O/3bb3bwY9gwCgNd+YethU3hu3IuQqpIhqhlKgWxQi0paTUjijaEcOu+yYZDk5UyfDvKCIzIYn1XCBHwby8vjEAAAA[0mTask Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[withMaven] Publishers: Generated Artifacts Publisher: 182 ms, Junit Publisher: 14 ms
+[8mha:////4IKY+g5s6szjvTEQ0EMlEXNs6ybHvUhDFpxotIuwyECfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g3n4YvVvgAAAA==[0m[Pipeline] // withMaven
+[8mha:////4H06ft8EWfB0W4izfS5h5eBOda5TxV7lyX3X3kMtBaVJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN/hj3oe+AAAA[0m[Pipeline] }
+[8mha:////4AbmfM/8k4NJwXtkaMeC2i2ChPppN5Hy3pJ3scQMzyV0AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCCUJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fu+GPAb4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4DeuHOCP0gypXdzaK0zR5RJgcquapezs3556oRHJ8yUhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQoSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9B/yWrE2+AAAA[0m[Pipeline] }
+[8mha:////4FZ/p4l8ZD17J+pNsrg0VTp89/x3EYN6s5EPzSai2jMxAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LgYkwMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJXVQz5Yf8B55gOZL8AAAA=[0m[Pipeline] // stage
+[8mha:////4M0l6wsruIKT3SzrKCK6i2XFza7RGgXHOAQ4zXidCn5fAAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8giHFFSIitZKwwuMY4wT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhjgQMGKzmDvMGonBj/a1MREob94mkRHZ6EJI3kjGjM11Jrjgg2xgSVZDoWElUHtKTq0DGvZqbuqvEJbnTikbS8hd+0NHpDJZGYV+AtzgM11bCPhz/NXAPPAkNc7hqLe1p9r+QZxVg6fwwAAAA==[0m[Pipeline] stage
+[8mha:////4DdOValNT41qtGrvoRjL5gy0audVtj0axrw/RHlKzJj0AAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQRV+PE2rD4BLXUWmj+H9timXwiX813sELi5A2Xu0su3+sNpXdwIqdZr3Aw6KVho510SiySG66WIuvpwiShJ6tYq2JLnWrW2lJQsCrLoeCwUSgteYM6wJb34iEqK1BX5+DSduSQm+4OT8h4IgfhwlJmB7vb1HnCH+cvAOYxQFHv68UP32/5AeRSsaPEAAAA[0m[Pipeline] { (docker build and Tag)
+[8mha:////4KsANZpFFegQzOOVHpQPF3xE0YirrvL70Pgt7GsH7+LoAAAApR+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYTDp0SpaK00nMDYxtixdoPt4FSciKtxB6JEomKK0bxp3vsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvdYe5j/wUKhu8NwAAAAA==[0m[Pipeline] tool
+[8mha:////4HPAXwYvOmJmPzWnbv2EKv2dR8dtpHmeqkKq7v0XWWFxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiA6lorXS8AJjG2PHugu2g1PxIr7GH4gSiYotVjvbzPsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvdYe5j/wXNEK5CwAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4FBN0BSM0fzJcLhE9CMDjRk15CoQ8FCSrN1WFoWTLF2HAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApIDGhTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QessCrJxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4OjntX1H6c1j4q0O1PUM4uMhNl18T7AmgJl83AnsAbf5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApDLCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QeNKyY7xAAAAA==[0m[Pipeline] {
+[8mha:////4PHLXzCbCIXBEaOYLdrMYIAKEFRhd6MPAGmAm5KXPrESAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApLDCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QfYKuSHxAAAAA==[0m[Pipeline] script
+[8mha:////4BYdEwT114SNwiQ0UMRhD+nQHFdE9mRlvamg9R5D3WvaAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApTCChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5Qdi1BftxAAAAA==[0m[Pipeline] {
+[8mha:////4JEY+AYVk+Ps5lB9Lmnvdn4p4y6VdyezvcPzX4hyaXkrAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApbCDUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/AC2mN9UxAAAAA==[0m[Pipeline] withDockerRegistry
+$ docker login -u imsrushti -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/lib/jenkins/workspace/CI-pipeline@tmp/7bd194bd-543d-4290-9b90-ebaf88ea6626/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credential-stores
+
+Login Succeeded
+[8mha:////4NYvTjHearoHFY1zuhh3QXaAT4/QmV4dZ7uDuAF3NUPCAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSB0Rgn14bFJ6htrYXm/7Etlskn8tV8B0ESJ2+43F1y+V5vKIOHI3nDOo29xSAtG9xo5sQS+f7qKLGOLkwSBnKatTq1pPRprS1FDauyHAoOG43SUbBoImx5Jx6icgJNdY5+3g4ccqvu8ISMz+QofPyWycPuNqpA+OP8BcA0RCiaer94Uy/f8gOljgJOxAAAAA==[0m[Pipeline] {
+[8mha:////4ANDfLvfl2fQa0h8jWTitl6drrYPw4ex86kF+3/flfyuAAAAox+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDakRFa6XhBcY+jBPrztgOScWL+Bp/IEokKrZY7Wwz7w9sUoQTRys6pN5R0k4EP9h5iZFjf/M8io6vQjMl9ihaHFs2eF6x5YywpiihkrBF0p6TI5thJzv1VLVXZOtLjvN3lFA684AXFHI2ZxXzAlOE/X0wienn+SuAKWSomuawdBO+gZ1Fa8AAAAA=[0m[Pipeline] sh
++ docker build -t imsrushti/bankapp:v10.0 .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 208B done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/eclipse-temurin:17-jdk-alpine
+#2 ...
+
+#3 [auth] library/eclipse-temurin:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/eclipse-temurin:17-jdk-alpine
+#2 DONE 2.6s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.1s
+
+#5 [1/3] FROM docker.io/library/eclipse-temurin:17-jdk-alpine@sha256:a17f6d4589083ac3e87e584eacd3b007dc2c9402d971abf576fa7549edeb10f9
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 52.33MB 0.2s done
+#6 DONE 0.3s
+
+#5 [1/3] FROM docker.io/library/eclipse-temurin:17-jdk-alpine@sha256:a17f6d4589083ac3e87e584eacd3b007dc2c9402d971abf576fa7549edeb10f9
+#5 CACHED
+
+#7 [2/3] COPY target/*.jar /usr/src/app/app.jar
+#7 DONE 0.2s
+
+#8 [3/3] WORKDIR /usr/src/app
+#8 DONE 0.1s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.2s done
+#9 writing image sha256:33d5c49c466c6337b195b9f8ae92ef5efe335377327339d7351312e3b78f7556 done
+#9 naming to docker.io/imsrushti/bankapp:v10.0 0.0s done
+#9 DONE 0.3s
+
+ [33m1 warning found (use docker --debug to expand):
+[0m - LegacyKeyValueFormat: "ENV key=value" should be used instead of legacy "ENV key value" format (line 5)
+[8mha:////4LEv/mv1xa+r5iu50xLIaw4G5hiUj7nUlI3q5EWZkfgFAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GIrWNFm0njCWKIMZDZxSQIlSfyat5BBmas/MWf/37z3h/YxABnDhZbQ52jqB32frDzwpFDd/M8YstX1EyRvUFpRsmNqVeUnAysyXIoBGwNac/RkU2wE616qtIrsuUlhfk7Cchd84AXZGI2JxXSAlOA/X1oItPP81cAU98nKKrquPThC/h9yGnAAAAA[0m[Pipeline] }
+[8mha:////4LHmxXq3V0OaLpcjYVW20h8eJi8oZ+fUyEZ4IIT+BGnmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDRIUQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBU1fbTm90bqf94r8AAAAA=[0m[Pipeline] // withDockerRegistry
+[8mha:////4JtKESdPeHJD9pUk//Xw8f2+9thlJDvMXLjf/M+iC6KHAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDJAokREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUVbX99Gb3BrHx2B3AAAAA[0m[Pipeline] }
+[8mha:////4Cf0XycjOZHVTxKTmDEniu5n4e/asZk9NqrjcQlgR6ylAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDCkSBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqraf3uzelOcQK8AAAAA=[0m[Pipeline] // script
+[8mha:////4DhDINZZHCNqF1A4ocnTu8Lw3HPtm94Yec2+jjLuOuW5AAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BDENGkcK1uGxhMgQSRh/kcgksoTeTXvYDQzVm6xs2+b93zBKgY4UDCs1zhYjMoy70YzL5YpDBdHmfV0ZoowktNM6Cyo08cFBSUNS4oSKg5rjcpRtGgSbHgv77J2Ek19SmH+9hxK293gAQWfzUmG9IUpwPY6dpHw5/krgMn7BFXTtJ/etW+fzf9twAAAAA==[0m[Pipeline] }
+[8mha:////4DfCzzK8GjxO5Q9SjdBlh+A43qJV5XUm8MoCRwXKTgGCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDCkSBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqnaf3mzfkZeBUsAAAAA=[0m[Pipeline] // withEnv
+[8mha:////4Fk4dAksq9jwG0UcR8WUHngrKUFk4KCGBJroOtSJwAu1AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDqJAQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBU1e7Tm+0b23KtOsAAAAA=[0m[Pipeline] }
+[8mha:////4HNATk6QwAmreFahoj4JomstSWCWd9MOfqfoa0EOUDDjAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBESsexSsuk8QQIiCTM/xGISeWJvJp3EM2MlVvs7NvmPV+wigGOFCzrDPYOo3Js8KPNi00U+ouniXV0ZoowkjesNVNL2jQLtpQMLClKqASsDSpP0aFNsBGdvMvaS7T1KYX8HQSUTt/gAYXI5iRD+sIcYHsddST8ef4KYB6GBBXn+0/v+BvVKNMFwAAAAA==[0m[Pipeline] // stage
+[8mha:////4PXA2IjVNj6yuH6ivfWBz9LZCC+IXn0kvbUG5wPCAewuAAAAqB+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6KIiZNhcm1Y/IJaai0072H7ECa/yF/zH0RJnLzTPTe5Oc8X5DFARcGK1mDnMGonej/YuYmRQnfxNIqWzkITRvJG1GasqTHHBWtiA0uSFDIJK4PaU3RoGdayVXdVeIW2OHGYt4OE1DU3eEAiZzOrwF+YAmyuQxMJf56/Aph6hrTcM2Tlbvu55m/9lM3DwwAAAA==[0m[Pipeline] stage
+[8mha:////4N6rmkLRkB1M5LFDl+MD+YXa/6I7sWKY5zFvykXOEjqIAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQRV+PE2rD4BLXUWmj+H9timXwiX813sELi5A2Xu0su3+sNpXdwIqdZr3Aw6KVho510SiySG66WIuvpwiShJ6tYq2JLnWrW2lJQsCrLoeCwUSgteYM6wJb34iEqK1BX5+DSduSQm+4OT8h4IgfhwlJmB7vb1HnCH+cvAOYxQFEf9ovX32/5AUfIQ0nEAAAA[0m[Pipeline] { (Docker Image Scan)
+[8mha:////4E9FmbYq/PcmeS1DNcD9DUtpqthCIMcz95SsID64AUfTAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEGWsfKNkPjCWKIMZDZDckiVJ7Iq3kHGZix8hd//vvNe39glyKcKVrRGewdJu1E8KNdlpgo9ndPk+joJjRhIm9EY6aGWnPZsCE2sCXLoZCwN6g9JYeW4SA79VSlV2jLK8flO0nIXTvACzK5mFlFXmGOcHyMbSL8ef4KYA4MRVVXa9fhC0BMCbfAAAAA[0m[Pipeline] tool
+[8mha:////4BR5iTjhrMBMGx62Ep0LSID6oYaepM5pSxFmndBZVl3tAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjQImo0lppeIGJjbFj3RnbIal4EV/jD1iJRMUWq51t5v2BTQxwpqCZVTgYjL1h3o06LzZRGG6OJmbpynrCSE6xTk0dSdWu2FFSsKYooeKwVdg7igZ1gh234ilqJ1DXlxTyd+JQGvmAFxQ8m5MIaYE5wP4+ykj48/wVwOwTVM2hWfrovwF9Eq7AAAAA[0m[Pipeline] envVarsForTool
+[8mha:////4DMYe0GN67jc4NNHG9cq2CLZm1XqAw4IBvgfLch3Hy5rAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJxs04sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDU+3rxw/dbfgCbFSuCxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4FGGJ8uqxTN7l4eRjWJviT+ixeAlcqoVqvfwhjp8po67AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpQDChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx3e1nP3y/5QcusdTRxAAAAA==[0m[Pipeline] {
+[8mha:////4Nu792AR3ibjXpYnMMtVVTYAEGxddwt9J8qYLVVhuOvbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjkKBBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNVuf5j72H8BvocvV8AAAAA=[0m[Pipeline] sh
++ trivy image --format table -o dimage.html imsrushti/bankapp:v10.0
+2024-10-22T20:49:51+05:30	INFO	[vuln] Vulnerability scanning is enabled
+2024-10-22T20:49:51+05:30	INFO	[secret] Secret scanning is enabled
+2024-10-22T20:49:51+05:30	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to disable secret scanning
+2024-10-22T20:49:51+05:30	INFO	[secret] Please see also https://aquasecurity.github.io/trivy/v0.56/docs/scanner/secret#recommendation for faster secret detection
+2024-10-22T20:49:55+05:30	INFO	Detected OS	family="alpine" version="3.20.3"
+2024-10-22T20:49:55+05:30	INFO	[alpine] Detecting vulnerabilities...	os_version="3.20" repository="3.20" pkg_num=47
+2024-10-22T20:49:55+05:30	INFO	Number of language-specific files	num=1
+2024-10-22T20:49:55+05:30	INFO	[jar] Detecting vulnerabilities...
+2024-10-22T20:49:55+05:30	WARN	Using severities from other vendors for some vulnerabilities. Read https://aquasecurity.github.io/trivy/v0.56/docs/scanner/vulnerability#severity-selection for details.
+2024-10-22T20:49:56+05:30	INFO	Table result includes only package filenames. Use '--format json' option to get the full path to the package file.
+[8mha:////4BjkuuUqkXfeNZRRUmemB7pz/NtfiXYrA2W18LqEHDtnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjkBAFSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDY9wmq3f449+EL8PI47sAAAAA=[0m[Pipeline] }
+[8mha:////4LTqV6wchSnr0SkkpTdZGd6Jl21Ukh78LWOkMnenN9TnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEAUSSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDY9wmq3f449+ELj7J3b8AAAAA=[0m[Pipeline] // withEnv
+[8mha:////4FdkyMSBp7WR9mTyG7zvZz/TvMnn5UDgU/IBRF9p2ddrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSj0CFEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGbvE1TN4bh08wW0TWq5wAAAAA==[0m[Pipeline] }
+[8mha:////4FnEWVcqF4oG6KKFYQBx/O7o9iKZTC3TSWNdkDIK2rS4AAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BAkaulY2TI0ngABkYT5PwKRVJ7Iq3kHo5mxcoudfdu85wsWMcCBgmWtwc5hVI71frDTYplCd/GUWUtnpggjecOEyYK0Oc4oKBmYU5RQcVgaVJ6iQ5tgxVt5l7WXaOtTCtO351A6fYMHFHwyJxnSF8YA6+ugI+HP81cAY98nqDa75tPb5g1vOF+XwAAAAA==[0m[Pipeline] // stage
+[8mha:////4PRtq9jUOG4+QWWOCFvH1eXvqK9Ovk3GhfZUmfu0xVrKAAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHFqJCVLRWGl5gHGOcWHfBvpBUvIiv8QcCkajYamel1TxfUKYIB4pOtBY7j8l40YfBzU2MFLtLoFG0dBaGMFGworZjTY09LlgTW1iS5VAoWFk0gZJHx7BWrb7rKmh01YnjvO0V5L65wQMyNZtZR/7CFGFzHZpE+PP8FcDUM+Ryx1DIrfxcyzfsTOauwwAAAA==[0m[Pipeline] stage
+[8mha:////4OwL9XFhJYHXNDhAEiUbvkKFMXhE7q+0PYnDPEdHmxa6AAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJOhon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYr6UC++/37LD7ckky/EAAAA[0m[Pipeline] { (docker image push)
+[8mha:////4Ojvd3+K8HpP+r97mDndALT4MEqIS7EhkNft3u57zCipAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxFGKR0r2kwaTxBDjIHMLm6CUHkir+YdZGDGyl/8+e837/2BTWQ4EzvRWuw8RuNFHwY3LzESd7dAo2jpKgxhpGCFsqOixtYrKkoW1mQ5FBK2Fk2g6NEl2MlWP3UZNLryknj+ThJy3zzgBZmczUlzWmBi2N+HJhL+PH8FMPUJikN1XLrqv5YEJDbAAAAA[0m[Pipeline] tool
+[8mha:////4DivQT6/C7J5hDiQIfLPrvbTqaGCQCSwWoDE8mqVsbbHAAAApR+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjPh1KRWul4QTGNsaOtRtsB6fiRFyNOxAlEhVTjOZN894fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNod9nMf+y9RkmV5wAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4EAio2p602P3g5XZD/OTYs29Ph62k/ORLsIfkRFdCgpLAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpADGhTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx3e9mP3y/5Qf/xghFxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4GDPsywbVPDCC/pV1QHA5kfWFjpndELERLThsvu7KpjEAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEIIFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT/eXQS3xAAAAA==[0m[Pipeline] {
+[8mha:////4AqAJgIREQMD3elaVIyhV0C3qejR8YiyjQcFgULTizOZAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEBIMqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kBi1zGC8QAAAA=[0m[Pipeline] script
+[8mha:////4PBTL3HAljrhQxan9S3MIltORwqzXLcVNXnHPhMhox41AAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEANIqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kBMaI1YcQAAAA=[0m[Pipeline] {
+[8mha:////4A7KxbtHYWNNGsR+MoNZgA1rj9mUpHhqYEtDv6rqs8H7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEAsIdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT/l7v3YxAAAAA==[0m[Pipeline] withDockerRegistry
+$ docker login -u imsrushti -p ******** https://index.docker.io/v1/
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/lib/jenkins/workspace/CI-pipeline@tmp/ee481b86-d107-48b7-ac10-143d06a118d4/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credential-stores
+
+Login Succeeded
+[8mha:////4BdF/o9j5Mp5BZqA5LnjbL8ASoE6PTHo8YPvxmhWvJUUAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApCBaEmFijLJwgpCGkjf4vSUo6cSKuxh1oqcSEB8u2ZL3XG8rg4UjesEZjazEoyzrXmzGxRL69OkqsoQtThIGcZkInQbU+zVVQ1DAry6HgsNCoHAWLJsKSN/IhKyfRVOfox+3AIbf1HZ6Q8ZEcpY/fMnhY3fo6EP44fwEwdBGKzXY/+W49fcsPzM3wocQAAAA=[0m[Pipeline] {
+[8mha:////4IaikEieMb/7STmE0S4dxDKBwmMv8fWXuM//UO09xiZcAAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IhiZtxYm26+AW11Fpo3sO2CJNf5K/5DxJInLzDzT13Oe8PbGKAMweLraHOUdQOez/YeeHIobt5HrHlK2qmyN6gNKPkxtQrSk4G1mQ5FAK2hrTn6Mgm2IlWPVXpFdnyksL8nQTkrnnACzIxm5MKaYEpwP4+NJHp5/krgKlPUFTHw9JV/wUlGhknwAAAAA==[0m[Pipeline] sh
++ docker push imsrushti/bankapp:v10.0
+The push refers to repository [docker.io/imsrushti/bankapp]
+5f70bf18a086: Preparing
+879a7d49dac0: Preparing
+ca84a9f19fa1: Preparing
+1166eec84aef: Preparing
+a19f7f8eb5cc: Preparing
+42a7bf1cf942: Preparing
+63ca1fbb43ae: Preparing
+42a7bf1cf942: Waiting
+63ca1fbb43ae: Waiting
+a19f7f8eb5cc: Layer already exists
+1166eec84aef: Layer already exists
+5f70bf18a086: Layer already exists
+ca84a9f19fa1: Layer already exists
+42a7bf1cf942: Layer already exists
+63ca1fbb43ae: Layer already exists
+879a7d49dac0: Pushed
+v10.0: digest: sha256:3c21cbd1e8dc434268eb7101abcea06c4cb785240a674fb2a276f89cd88bd152 size: 1786
+[8mha:////4ARUYq1eyZWAEUqvrr2253o+xE26N7ajDGot3hVj6ZPnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiA6lorXS8AJjG2PHugu2g1PxIr7GH4gSiYotVjvbzPsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOz7BNX+eJh79wXZh19cwAAAAA==[0m[Pipeline] }
+[8mha:////4O3BAN4fFuQg1PTGvm5CknMwELM0CqB+iocT0jM6Q9QFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjFBqEqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIZis60+Xe3eDqK1zMAAAAA=[0m[Pipeline] // withDockerRegistry
+[8mha:////4NsAaqTXZrjsiWryUUGJaeIyordUd2uaT+uhp8fKsfazAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjRAokREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUm6r69Hb3BhasFX7AAAAA[0m[Pipeline] }
+[8mha:////4DnCuZ/Js7UC85M53m8Nq/dVZ8z0ZlQ07Eq2C+lGiwIuAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjBIgCUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqtdl+er17AzO63UjAAAAA[0m[Pipeline] // script
+[8mha:////4F7100aLBgJrwOTShfTfZPzzPtQGADidlAkaFhlDS3tMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjBEqDqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIZis6s+va3eOJAyDsAAAAA=[0m[Pipeline] }
+[8mha:////4OodHE1d0rUmIQhBAgoNcAr08eQ+1ElZ1ukKZPDEd1nJAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjBIgCUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqtdl9er19AzbKTDHAAAAA[0m[Pipeline] // withEnv
+[8mha:////4BepYUe8i2JJ/qf7nagQxiuK8GN3aEMFmjDrSFe8zOOeAAAApx+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjPgUSoqK13HACYxvjxNoNtkNScSKuxh0wRKJiitG8ad7zBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq+3u05v1G3wvYFnAAAAA[0m[Pipeline] }
+[8mha:////4LuhByWCtAUr+7BUf/SzfAzN6WihVZijhVt31SMsXvG+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjCBqEqGgtN7zA2MY4se6C7eBUvIiv8QcCkajYYrWzzTxfsIgBDhQsaw12DqNyrPeDnRbLFLqLp8xaOjNFGMkbJkwWpM1xRkHJwJyihIrD0qDyFB3aBCveyrusvURbn1KYvj2H0ukbPKDgkznJkL4wBlhfBx0Jf56/Ahj7PkHVbHef3jRvcnUeZsAAAAA=[0m[Pipeline] // stage
+[8mha:////4EliirZfBNX1P3l5a1ojEmUXa9BnM+RyTREwQLzIGvD+AAAAqB+LCAAAAAAAAP9tjTESgjAQRRcYCltLDxGkoHKsaDM0niCGGAOZXUwWofJEXs07iDJj5a/++zN/3vMFeQxwpGBFZ7B3GLUTgx/t0sREob94mkRHZ6EJI3kjGjM11Jp6xYbYwJokhUzCxqD2FB1ahq3s1F0VXqEtThyW7SAhde0NHpDIxcwq8BfmALvr2EbCn+evAOaBIS0rhqys9p9r/gZzqmoGwwAAAA==[0m[Pipeline] stage
+[8mha:////4NL8KxEMiZCYIpISiiw3bE5Hi5A76qkTIr5X5wkzxpsaAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSRwck4sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDUh/3i9fdbfgCR8JfxxAAAAA==[0m[Pipeline] { (Update YAML Manifests in CD repo)
+[8mha:////4IBgeZjYb0t9zvIrE+zaJ4T6EWCboMLz+efNMX94mJkHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIFEhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTD7BFVzbJY++C8MNyfWwAAAAA==[0m[Pipeline] tool
+[8mha:////4Co8ihUPiPWDxVVVOer8V5NgKoTUpCuYfnVj4HXxHfefAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjCFEhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTD7BFVzbJY++C9NBjzPwAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4D2QQyuYU+6PZZW+mATIVkEAQ4l+K7pe8PkL3A/cUAFPAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJiU7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CiPtSL77/f8gNNLf86xAAAAA==[0m[Pipeline] withEnv
+[8mha:////4DW8HpJ9IWXj9bCX0q7+43em+JOUhbrdi+Na1p/Oa4mxAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJiUzGibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4BiXx8Wr7/f8gP4iQBpxAAAAA==[0m[Pipeline] {
+[8mha:////4DtQbesfif7oJKVO6Yz7gTIPgsSdlqGrFwMQimMrkBeFAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJAy7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4BiX9eLH77f8gM5tzF0xAAAAA==[0m[Pipeline] script
+[8mha:////4KXRHNXdgvcsTp8qs0ASWYbhVJj9BGPZezP0WYuLKBr6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpGIABdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT9stvPIxAAAAA==[0m[Pipeline] {
+[8mha:////4BiNARaNOewo7b176ryvkXMUoOljw2lTYoOjjuq7ifTfAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpGBBIqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kB1kgAosQAAAA=[0m[Pipeline] withCredentials
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+Masking supported pattern matches of $GIT_PASSWORD or $GIT_ASKPASS
+[8mha:////4A300IfnzRj9X+ME+Byt2BIdLx4OPgKnQOcCaiK7BL45AAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpGJBAqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kBAgTIG8QAAAA=[0m[Pipeline] {
+[8mha:////4LBbd0/jVRrWnXM+oxSsS/66mFgWmeMK0aKuAFP+BtVfAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDBUgIUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2Car1Zvfp7ap7A2LwsjXAAAAA[0m[Pipeline] sh
++ rm -rf Multi-Tier-BankApp-CD
++ git clone https://github.com/SRUSHTI-AGARWAL/Multi-Tier-BankApp-CD.git
+Cloning into 'Multi-Tier-BankApp-CD'...
++ cd Multi-Tier-BankApp-CD
++ ls -l bankapp
+total 4
+-rw-r--r-- 1 jenkins jenkins 882 Oct 22 20:50 bankapp-ds.yml
++ pwd
++ repo_dir=/var/lib/jenkins/workspace/CI-pipeline/Multi-Tier-BankApp-CD
++ sed -i s|image: imsrushti/bankapp:.*|image: imsrushti/bankapp:v10.0| /var/lib/jenkins/workspace/CI-pipeline/Multi-Tier-BankApp-CD/bankapp/bankapp-ds.yml
+[8mha:////4CmhSXvs3oUhnr85vpZp5K3lAK8qlTthtyjldY+2Z9ZfAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFCAhREVrueEFxjbGiXUXbAen4kV8jT8QiETFFqudbeb5gkUMcKBgWWuwcxiVY70f7LRYptBdPGXW0pkpwkjeMGGyIG2OMwpKBuYUJVQclgaVp+jQJljxVt5l7SXa+pTC9O05lE7f4AEFn8xJhvSFMcD6OuhI+PP8FcDYJ6iaze7T26Z/AyPBqSzAAAAA[0m[Pipeline] sh
++ echo Updated YAML file contents
+Updated YAML file contents
++ cat Multi-Tier-BankApp-CD/bankapp/bankapp-ds.yml
+
+---
+# Java Application Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bankapp
+spec:
+  replicas: 3
+  revisionHistoryLimit: 1
+  selector:
+    matchLabels:
+      app: bankapp
+  template:
+    metadata:
+      labels:
+        app: bankapp
+    spec:
+      containers:
+      - name: bankapp
+        image: imsrushti/bankapp:v10.0
+        ports:
+        - containerPort: 8080
+        env:
+        - name: SPRING_DATASOURCE_URL
+          value: jdbc:mysql://mysql-service:3306/bankappdb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+        - name: SPRING_DATASOURCE_USERNAME
+          value: root
+        - name: SPRING_DATASOURCE_PASSWORD
+          value: Test@123
+---
+# Bank Application Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: bankapp-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 8080
+  selector:
+    app: bankapp
+[8mha:////4FVUgja8GNuso+SnXNRLvpAZ9Un1TBAe35ZVrI9RlOgEAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjkEBCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4CxS1CtNrtPb9fdG+CShAfAAAAA[0m[Pipeline] sh
++ cd Multi-Tier-BankApp-CD
++ git config user.email ssd125agarwal@gmail.com
++ git config user.name SRUSHTI-AGARWAL
+[8mha:////4HzCHlArT5fuD+/K8sTWVS5qaByeXck6SBasvRlo3x4FAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjhEBCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4CxS1CtNrtPb9fdG6Gjnx7AAAAA[0m[Pipeline] sh
++ cd Multi-Tier-BankApp-CD
++ ls
+LICENSE
+bankapp
+database
++ git add bankapp/bankapp-ds.yml
++ git commit -m Update images to v10.0
+[main 2129e61] Update images to v10.0
+ 1 file changed, 1 insertion(+), 1 deletion(-)
++ git push origin main
+To https://github.com/SRUSHTI-AGARWAL/Multi-Tier-BankApp-CD.git
+   37340c0..2129e61  main -> main
+[8mha:////4Fd30tODC23qOX02Jtbo4lWs38dLYin9vQ3SO1SBQsmuAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJEBCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq+3605vdG3s8bR3AAAAA[0m[Pipeline] }
+[8mha:////4DtoKvwaSDaNk1s7BaMJ1/KR0DXp8YuWfx8vDjfYywBdAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjiiAkREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUm2316Wr3BlkHHczAAAAA[0m[Pipeline] // withCredentials
+[8mha:////4D2vQHoCEtEKKLoSwYya4usKtKVhHE/vBzxweqzwXNaJAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjCkKBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIZiU1Wf3u7eVQBKbcAAAAA=[0m[Pipeline] }
+[8mha:////4OMn8sec97xpUv1U++QPtqVMwfFTvfwAk8XRNt7LuCOFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjCkKBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIZiU+0+va3edzs6vMAAAAA=[0m[Pipeline] // script
+[8mha:////4Et6uHH5RLh2YvUbEETRRfve7HQ8pfONaLmQ4RH3y7PBAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjiiAkREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUm+3u01X1BiQae9PAAAAA[0m[Pipeline] }
+[8mha:////4Cgileos/aWmgzG/IHscfS4sn5qJH9iRPxApssRVvN9LAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJEBCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq+3u05v1GwYhCwLAAAAA[0m[Pipeline] // withEnv
+[8mha:////4DColjj8/XebmoVq3iD4XbmrtNLUIz4DnOnrhtkTlnd1AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDCkSBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIai2m0+va3exJBTK8AAAAA=[0m[Pipeline] }
+[8mha:////4BOHwsxPwQ16+rtUBLMC9kYdWdeOgnGhhcNXasgXeSq0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDCkSBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIai2lWf3m7e5qsj+sAAAAA=[0m[Pipeline] // stage
+[8mha:////4PICrABnIa8fbZ3AgS5e7dp7ZcqBQyDmXc2xL3IRPh5BAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6IEE+NgmFwbFr+glloLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYdRODH606YmJQn/1NImOLkITRvJGNGZqqDWnBRtiA8uyHAoJa4PaU3RoGTayUw9VeoW2PHNI7ighd+0dnpDJVGYV+AtzgO1tbCPhr/M3APMwMBTVYceQV/sPke2qpL8AAAA=[0m[Pipeline] }
+[8mha:////4E5+Ecec//cHmZM6GH09RKFPm8LE9A7a62ZZIR9JbpqmAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KEaOJgmFwbFr+glloLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYdRODH606YmJQn/1NImOLkITRvJGNGZqqDWnBRtiA8uyHAoJa4PaU3RoGTayUw9VeoW2PHNI7ighd+0dnpDJVGYV+AtzgO1tbCPhr/M3APMwMBTVYceQV/sPog7xGL8AAAA=[0m[Pipeline] // withEnv
+[8mha:////4M8KsZ853RUDut/aXbrHAF1Ar3hB8Inawz76qrexH6b5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJKQUiIrWSsMLTGyME+vO2BecihfxNf5ARCQqttqZZl5vWKUIR4pW9AYHh6lzIvjRzk9kisPVUxY9XURHmMgb0ZrckjanBVtiA8uKEioJa4Odp+TQMmxkrx6q9gptfeY4u4OE0uk7PKGQc5lV5C9MEba3USfCX+dvAKYQGKpds2comg8jj005vgAAAA==[0m[Pipeline] }
+[8mha:////4OeLOo+JRUENZit8KJ5IIUy+aTz8dLhKW5/OfINSiqCUAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjCqBAVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodzstwxi9wEFlipzvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4HnS7jMvs50oaPnr46jRvvEfJs+MdWbrJZd47kfgz4l/AAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjJAQFoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmv2MQ2w/5jYTavgAAAA==[0m[Pipeline] }
+[8mha:////4CoZk9s8IlaWG0kmbFpnAKGRMZ4nJSFSIs0ohiqRljDAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjRJECUdFaaXiBiY1xYt0Z+4JT8SK+xh+IiETFVjvTzOsNqxThSNGK3uDgMHVOBD/a+YlMcbh6yqKni+gIE3kjWpNb0ua0YEtsYFlRQiVhbbDzlBxaho3s1UPVXqGtzxxnd5BQOn2HJxRyLrOK/IUpwvY26kT46/wNwBQCQ7VrGoZi/wHqMYB5vgAAAA==[0m[Pipeline] // node
+[8mha:////4HqIstXKlpSOKFe3dl16Gc22ZkJpHUw3uVc+Ltbbh64oAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjaEBCVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodzs9gxi+wGtlteMvgAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

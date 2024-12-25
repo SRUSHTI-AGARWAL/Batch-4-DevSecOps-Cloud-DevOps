@@ -1,0 +1,48 @@
+Started
+[Thu Dec 19 16:33:37 UTC 2024] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials github-cred
+ > git ls-remote --symref -- https://github.com/SRUSHTI-AGARWAL/FullStack-Blogging-App.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-57333e08a45e0e4241716730a1fda197/.git # timeout=10
+Setting origin to https://github.com/SRUSHTI-AGARWAL/FullStack-Blogging-App.git
+ > git config remote.origin.url https://github.com/SRUSHTI-AGARWAL/FullStack-Blogging-App.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+using GIT_ASKPASS to set credentials github-cred
+ > git ls-remote -h -- https://github.com/SRUSHTI-AGARWAL/FullStack-Blogging-App.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials github-cred
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch feature2
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: feature2 (still at b4d6f159b4b2f9560a84c0ca5cd984a5691a8cc1)
+  Checking branch feature1
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: feature1 (still at 0f36155d788ddb82d5018cc5a350731ef289df5e)
+  Checking branch testing
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: testing (still at 3d96152bc61957a5190600396a149375cc211756)
+  Checking branch develop
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch main
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: main (still at 6e2ce97b1318972db2cc3dfdf1d8097b8382c8c2)
+  Checking branch Dev
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: Dev (e2dafdf019352eae77ee01a9c42d1852db998ece → 68de02b919da9c24ca1048c606282ff50344f09c)
+Scheduled build for branch: Dev
+Processed 6 branches
+[Thu Dec 19 16:33:40 UTC 2024] Finished branch indexing. Indexing took 2.3 sec
+Finished: SUCCESS

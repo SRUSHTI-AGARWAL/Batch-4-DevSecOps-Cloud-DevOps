@@ -1,0 +1,26 @@
+Started by user [8mha:////4K/v86KtkBqO/MFEggpHgMwf449gpzZRe1UgJgEfgLl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-fe18bbbf994a29574ac16618aa70c000/.git # timeout=10
+Setting origin to https://github.com/SRUSHTI-AGARWAL/Boardgame.git
+ > git config remote.origin.url https://github.com/SRUSHTI-AGARWAL/Boardgame.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials github-cred
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/Aditya
+Seen branch in repository origin/develop
+Seen branch in repository origin/feature
+Seen branch in repository origin/feature_add_button
+Seen branch in repository origin/feature_remove_button
+Seen branch in repository origin/main
+Seen branch in repository origin/nojenkinsfile
+Seen 7 remote branches
+Obtained Jenkinsfile from df72b7857b80fb5d9c4d6f62fca123ef7f595a63
+[8mha:////4NZ4NKMxErSdMkNUbYJI3vUJguS2pHF4CEIx8mtjSvBWAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4BSpg4TRn7xp3c7U1Ilszi4N9LtQDBJQlKdUgZ2g+BkQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+‘Jenkins’ doesn’t have label ‘slave-1’
+Resuming build at Fri Dec 20 17:21:49 UTC 2024 after Jenkins restart
+Ready to run at Fri Dec 20 17:21:49 UTC 2024

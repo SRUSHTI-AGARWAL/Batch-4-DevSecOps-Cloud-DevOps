@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1178.v969d9eb_c728e">
+  <sourceActions>
+    <entry>
+      <string>b1d110b4-1a27-4e79-85de-719513a76750</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@5.5.2">
+          <remote>https://github.com/SRUSHTI-AGARWAL/Boardgame.git</remote>
+          <name>main</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

@@ -1,0 +1,43 @@
+Branch indexing
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-fe18bbbf994a29574ac16618aa70c000/.git # timeout=10
+Setting origin to https://github.com/SRUSHTI-AGARWAL/Boardgame.git
+ > git config remote.origin.url https://github.com/SRUSHTI-AGARWAL/Boardgame.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials github-cred
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/Aditya
+Seen branch in repository origin/develop
+Seen branch in repository origin/feature
+Seen branch in repository origin/feature_add_button
+Seen branch in repository origin/main
+Seen branch in repository origin/nojenkinsfile
+Seen 6 remote branches
+Obtained Jenkinsfile from df72b7857b80fb5d9c4d6f62fca123ef7f595a63
+[8mha:////4NZ4NKMxErSdMkNUbYJI3vUJguS2pHF4CEIx8mtjSvBWAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4BSpg4TRn7xp3c7U1Ilszi4N9LtQDBJQlKdUgZ2g+BkQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor
+Resuming build at Wed Dec 18 14:19:02 UTC 2024 after Jenkins restart
+Ready to run at Wed Dec 18 14:19:02 UTC 2024
+Resuming build at Thu Dec 19 14:06:58 UTC 2024 after Jenkins restart
+Ready to run at Thu Dec 19 14:06:58 UTC 2024
+Pausing (Preparing for shutdown)
+Resuming build at Thu Dec 19 16:02:52 UTC 2024 after Jenkins restart
+Ready to run at Thu Dec 19 16:02:52 UTC 2024
+Pausing
+Aborted by [8mha:////4K/v86KtkBqO/MFEggpHgMwf449gpzZRe1UgJgEfgLl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4D+0d+4T4QRgEGYRiyaPmVDxnSMIxfvLOYhfUmz/T/FzAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbaGesbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/QfNmvKfvAAAAA==[0m[Pipeline] // node
+Aborted by [8mha:////4K/v86KtkBqO/MFEggpHgMwf449gpzZRe1UgJgEfgLl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4BeBhJFFSREZF7/iKnl3ML83SbOqQ2KP3aM5KUy2w66MAAAA9x+LCAAAAAAAAP9djDFOAzEQRWc3ghqlRHTUjEMKiIJSQQFSBEjhAs5ivN51PMYek9BwCK4BDRJXyCG4AB01BQ2GreA3/81I7z9/wEYMcEJBY6Nca1ysDHqbdCZcUmhvLC0xJu8pMEZWPqJxPjFeXsyuTu+9Cta49pxYbb31Xj8Pv95LKKbQS8Ey9KeNvJPCSqfFjINx+mgVYKdO15EcVuQiWYV/Vg4mTy+TR78uoTyDTauc5rqbu4UHKLK+/U8/7vpHhi5FCbDyGZCh2GUY1sx+LISlStqaIo9Hg9FANDQXrCLvzY37PRYyw37+hcU3HZXJehkBAAA=[0mClick here to forcibly terminate running steps
+[8mha:////4BeBhJFFSREZF7/iKnl3ML83SbOqQ2KP3aM5KUy2w66MAAAA9x+LCAAAAAAAAP9djDFOAzEQRWc3ghqlRHTUjEMKiIJSQQFSBEjhAs5ivN51PMYek9BwCK4BDRJXyCG4AB01BQ2GreA3/81I7z9/wEYMcEJBY6Nca1ysDHqbdCZcUmhvLC0xJu8pMEZWPqJxPjFeXsyuTu+9Cta49pxYbb31Xj8Pv95LKKbQS8Ey9KeNvJPCSqfFjINx+mgVYKdO15EcVuQiWYV/Vg4mTy+TR78uoTyDTauc5rqbu4UHKLK+/U8/7vpHhi5FCbDyGZCh2GUY1sx+LISlStqaIo9Hg9FANDQXrCLvzY37PRYyw37+hcU3HZXJehkBAAA=[0mClick here to forcibly terminate running steps
+Aborted by [8mha:////4K/v86KtkBqO/MFEggpHgMwf449gpzZRe1UgJgEfgLl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4BeBhJFFSREZF7/iKnl3ML83SbOqQ2KP3aM5KUy2w66MAAAA9x+LCAAAAAAAAP9djDFOAzEQRWc3ghqlRHTUjEMKiIJSQQFSBEjhAs5ivN51PMYek9BwCK4BDRJXyCG4AB01BQ2GreA3/81I7z9/wEYMcEJBY6Nca1ysDHqbdCZcUmhvLC0xJu8pMEZWPqJxPjFeXsyuTu+9Cta49pxYbb31Xj8Pv95LKKbQS8Ey9KeNvJPCSqfFjINx+mgVYKdO15EcVuQiWYV/Vg4mTy+TR78uoTyDTauc5rqbu4UHKLK+/U8/7vpHhi5FCbDyGZCh2GUY1sx+LISlStqaIo9Hg9FANDQXrCLvzY37PRYyw37+hcU3HZXJehkBAAA=[0mClick here to forcibly terminate running steps
+[8mha:////4Py3j8EWm3NhYuILXFqo3GoyTvgooiYRlSlaNV7cnzGtAAAA+B+LCAAAAAAAAP9djDFOw0AQRceOoEYpER0NDbsJBURBqaAAKYJI4QKOWdZrDzPL7iwJDYfgGtAgcQUOwQXoqCloMLiC3/z3i/efPmAtBjjmYFVtqHEUS6c8JtuSWnJorpCXKibvOYiKYnxUjnwSNTufX5zceRPQUXPGYjbeei+fB1/vOWRT6KWAAv1pXdwWGguyei7BkT1cBdiq0mVkUiVTZDTqz8v+5PF58uBfc8hPYR0NWam6uxu4h6zVN//pR13/yNAlywFWvoUdgWxbYK8S8WOtkcsCK44yHg1GA13zQouJsrtw9DuuixaGunGI39IDDL0ZAQAA[0mClick here to forcibly kill entire build
+[8mha:////4Py3j8EWm3NhYuILXFqo3GoyTvgooiYRlSlaNV7cnzGtAAAA+B+LCAAAAAAAAP9djDFOw0AQRceOoEYpER0NDbsJBURBqaAAKYJI4QKOWdZrDzPL7iwJDYfgGtAgcQUOwQXoqCloMLiC3/z3i/efPmAtBjjmYFVtqHEUS6c8JtuSWnJorpCXKibvOYiKYnxUjnwSNTufX5zceRPQUXPGYjbeei+fB1/vOWRT6KWAAv1pXdwWGguyei7BkT1cBdiq0mVkUiVTZDTqz8v+5PF58uBfc8hPYR0NWam6uxu4h6zVN//pR13/yNAlywFWvoUdgWxbYK8S8WOtkcsCK44yHg1GA13zQouJsrtw9DuuixaGunGI39IDDL0ZAQAA[0mClick here to forcibly kill entire build
+[8mha:////4Py3j8EWm3NhYuILXFqo3GoyTvgooiYRlSlaNV7cnzGtAAAA+B+LCAAAAAAAAP9djDFOw0AQRceOoEYpER0NDbsJBURBqaAAKYJI4QKOWdZrDzPL7iwJDYfgGtAgcQUOwQXoqCloMLiC3/z3i/efPmAtBjjmYFVtqHEUS6c8JtuSWnJorpCXKibvOYiKYnxUjnwSNTufX5zceRPQUXPGYjbeei+fB1/vOWRT6KWAAv1pXdwWGguyei7BkT1cBdiq0mVkUiVTZDTqz8v+5PF58uBfc8hPYR0NWam6uxu4h6zVN//pR13/yNAlywFWvoUdgWxbYK8S8WOtkcsCK44yHg1GA13zQouJsrtw9DuuixaGunGI39IDDL0ZAQAA[0mClick here to forcibly kill entire build
+Resuming build at Fri Dec 20 17:21:49 UTC 2024 after Jenkins restart
+Still paused

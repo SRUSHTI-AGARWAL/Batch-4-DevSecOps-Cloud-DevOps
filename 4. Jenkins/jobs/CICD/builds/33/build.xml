@@ -1,0 +1,868 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1436.vfa_244484591f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <org.jenkinsci.plugins.gwt.GenericCause plugin="generic-webhook-trigger@2.2.5">
+            <resolvedVariables class="tree-map">
+              <entry>
+                <string>ref</string>
+                <string>refs/heads/start</string>
+              </entry>
+            </resolvedVariables>
+            <postContent>{&quot;ref&quot;:&quot;refs/heads/start&quot;,&quot;before&quot;:&quot;59d0a88e5035004e2c3c2364251b10a1b51b58e4&quot;,&quot;after&quot;:&quot;8f3ada1033012a25b2a8e6219af015dc3a1aa365&quot;,&quot;repository&quot;:{&quot;id&quot;:879225580,&quot;node_id&quot;:&quot;R_kgDONGfq7A&quot;,&quot;name&quot;:&quot;Multi-Tier-With-Database&quot;,&quot;full_name&quot;:&quot;SRUSHTI-AGARWAL/Multi-Tier-With-Database&quot;,&quot;private&quot;:false,&quot;owner&quot;:{&quot;name&quot;:&quot;SRUSHTI-AGARWAL&quot;,&quot;email&quot;:&quot;51274343+SRUSHTI-AGARWAL@users.noreply.github.com&quot;,&quot;login&quot;:&quot;SRUSHTI-AGARWAL&quot;,&quot;id&quot;:51274343,&quot;node_id&quot;:&quot;MDQ6VXNlcjUxMjc0MzQz&quot;,&quot;avatar_url&quot;:&quot;https://avatars.githubusercontent.com/u/51274343?v=4&quot;,&quot;gravatar_id&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL&quot;,&quot;html_url&quot;:&quot;https://github.com/SRUSHTI-AGARWAL&quot;,&quot;followers_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/followers&quot;,&quot;following_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/following{/other_user}&quot;,&quot;gists_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/gists{/gist_id}&quot;,&quot;starred_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/starred{/owner}{/repo}&quot;,&quot;subscriptions_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/subscriptions&quot;,&quot;organizations_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/orgs&quot;,&quot;repos_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/repos&quot;,&quot;events_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/events{/privacy}&quot;,&quot;received_events_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/received_events&quot;,&quot;type&quot;:&quot;User&quot;,&quot;user_view_type&quot;:&quot;public&quot;,&quot;site_admin&quot;:false},&quot;html_url&quot;:&quot;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database&quot;,&quot;description&quot;:null,&quot;fork&quot;:true,&quot;url&quot;:&quot;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database&quot;,&quot;forks_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/forks&quot;,&quot;keys_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/keys{/key_id}&quot;,&quot;collaborators_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/collaborators{/collaborator}&quot;,&quot;teams_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/teams&quot;,&quot;hooks_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/hooks&quot;,&quot;issue_events_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/issues/events{/number}&quot;,&quot;events_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/events&quot;,&quot;assignees_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/assignees{/user}&quot;,&quot;branches_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/branches{/branch}&quot;,&quot;tags_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/tags&quot;,&quot;blobs_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/git/blobs{/sha}&quot;,&quot;git_tags_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/git/tags{/sha}&quot;,&quot;git_refs_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/git/refs{/sha}&quot;,&quot;trees_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/git/trees{/sha}&quot;,&quot;statuses_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/statuses/{sha}&quot;,&quot;languages_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/languages&quot;,&quot;stargazers_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/stargazers&quot;,&quot;contributors_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/contributors&quot;,&quot;subscribers_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/subscribers&quot;,&quot;subscription_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/subscription&quot;,&quot;commits_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/commits{/sha}&quot;,&quot;git_commits_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/git/commits{/sha}&quot;,&quot;comments_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/comments{/number}&quot;,&quot;issue_comment_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/issues/comments{/number}&quot;,&quot;contents_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/contents/{+path}&quot;,&quot;compare_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/compare/{base}...{head}&quot;,&quot;merges_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/merges&quot;,&quot;archive_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/{archive_format}{/ref}&quot;,&quot;downloads_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/downloads&quot;,&quot;issues_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/issues{/number}&quot;,&quot;pulls_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/pulls{/number}&quot;,&quot;milestones_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/milestones{/number}&quot;,&quot;notifications_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/notifications{?since,all,participating}&quot;,&quot;labels_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/labels{/name}&quot;,&quot;releases_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/releases{/id}&quot;,&quot;deployments_url&quot;:&quot;https://api.github.com/repos/SRUSHTI-AGARWAL/Multi-Tier-With-Database/deployments&quot;,&quot;created_at&quot;:1730026575,&quot;updated_at&quot;:&quot;2024-11-03T19:13:42Z&quot;,&quot;pushed_at&quot;:1730661459,&quot;git_url&quot;:&quot;git://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database.git&quot;,&quot;ssh_url&quot;:&quot;git@github.com:SRUSHTI-AGARWAL/Multi-Tier-With-Database.git&quot;,&quot;clone_url&quot;:&quot;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database.git&quot;,&quot;svn_url&quot;:&quot;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database&quot;,&quot;homepage&quot;:null,&quot;size&quot;:28,&quot;stargazers_count&quot;:0,&quot;watchers_count&quot;:0,&quot;language&quot;:&quot;HTML&quot;,&quot;has_issues&quot;:false,&quot;has_projects&quot;:true,&quot;has_downloads&quot;:true,&quot;has_wiki&quot;:true,&quot;has_pages&quot;:false,&quot;has_discussions&quot;:false,&quot;forks_count&quot;:0,&quot;mirror_url&quot;:null,&quot;archived&quot;:false,&quot;disabled&quot;:false,&quot;open_issues_count&quot;:0,&quot;license&quot;:null,&quot;allow_forking&quot;:true,&quot;is_template&quot;:false,&quot;web_commit_signoff_required&quot;:false,&quot;topics&quot;:[],&quot;visibility&quot;:&quot;public&quot;,&quot;forks&quot;:0,&quot;open_issues&quot;:0,&quot;watchers&quot;:0,&quot;default_branch&quot;:&quot;start&quot;,&quot;stargazers&quot;:0,&quot;master_branch&quot;:&quot;start&quot;},&quot;pusher&quot;:{&quot;name&quot;:&quot;SRUSHTI-AGARWAL&quot;,&quot;email&quot;:&quot;51274343+SRUSHTI-AGARWAL@users.noreply.github.com&quot;},&quot;sender&quot;:{&quot;login&quot;:&quot;SRUSHTI-AGARWAL&quot;,&quot;id&quot;:51274343,&quot;node_id&quot;:&quot;MDQ6VXNlcjUxMjc0MzQz&quot;,&quot;avatar_url&quot;:&quot;https://avatars.githubusercontent.com/u/51274343?v=4&quot;,&quot;gravatar_id&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL&quot;,&quot;html_url&quot;:&quot;https://github.com/SRUSHTI-AGARWAL&quot;,&quot;followers_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/followers&quot;,&quot;following_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/following{/other_user}&quot;,&quot;gists_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/gists{/gist_id}&quot;,&quot;starred_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/starred{/owner}{/repo}&quot;,&quot;subscriptions_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/subscriptions&quot;,&quot;organizations_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/orgs&quot;,&quot;repos_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/repos&quot;,&quot;events_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/events{/privacy}&quot;,&quot;received_events_url&quot;:&quot;https://api.github.com/users/SRUSHTI-AGARWAL/received_events&quot;,&quot;type&quot;:&quot;User&quot;,&quot;user_view_type&quot;:&quot;public&quot;,&quot;site_admin&quot;:false},&quot;created&quot;:false,&quot;deleted&quot;:false,&quot;forced&quot;:false,&quot;base_ref&quot;:null,&quot;compare&quot;:&quot;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database/compare/59d0a88e5035...8f3ada103301&quot;,&quot;commits&quot;:[{&quot;id&quot;:&quot;8f3ada1033012a25b2a8e6219af015dc3a1aa365&quot;,&quot;tree_id&quot;:&quot;2d5f2c334d2b39f0f02aaf6bd9b5d29f532768b2&quot;,&quot;distinct&quot;:true,&quot;message&quot;:&quot;Update pom.xml&quot;,&quot;timestamp&quot;:&quot;2024-11-04T00:47:39+05:30&quot;,&quot;url&quot;:&quot;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database/commit/8f3ada1033012a25b2a8e6219af015dc3a1aa365&quot;,&quot;author&quot;:{&quot;name&quot;:&quot;iam-srushti&quot;,&quot;email&quot;:&quot;51274343+SRUSHTI-AGARWAL@users.noreply.github.com&quot;,&quot;username&quot;:&quot;SRUSHTI-AGARWAL&quot;},&quot;committer&quot;:{&quot;name&quot;:&quot;GitHub&quot;,&quot;email&quot;:&quot;noreply@github.com&quot;,&quot;username&quot;:&quot;web-flow&quot;},&quot;added&quot;:[],&quot;removed&quot;:[],&quot;modified&quot;:[]}],&quot;head_commit&quot;:{&quot;id&quot;:&quot;8f3ada1033012a25b2a8e6219af015dc3a1aa365&quot;,&quot;tree_id&quot;:&quot;2d5f2c334d2b39f0f02aaf6bd9b5d29f532768b2&quot;,&quot;distinct&quot;:true,&quot;message&quot;:&quot;Update pom.xml&quot;,&quot;timestamp&quot;:&quot;2024-11-04T00:47:39+05:30&quot;,&quot;url&quot;:&quot;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database/commit/8f3ada1033012a25b2a8e6219af015dc3a1aa365&quot;,&quot;author&quot;:{&quot;name&quot;:&quot;iam-srushti&quot;,&quot;email&quot;:&quot;51274343+SRUSHTI-AGARWAL@users.noreply.github.com&quot;,&quot;username&quot;:&quot;SRUSHTI-AGARWAL&quot;},&quot;committer&quot;:{&quot;name&quot;:&quot;GitHub&quot;,&quot;email&quot;:&quot;noreply@github.com&quot;,&quot;username&quot;:&quot;web-flow&quot;},&quot;added&quot;:[],&quot;removed&quot;:[],&quot;modified&quot;:[]}}</postContent>
+            <printContributedVariables>false</printContributedVariables>
+            <printPostContent>false</printPostContent>
+            <postContentPrinted>false</postContentPrinted>
+            <cause>Generic Cause</cause>
+          </org.jenkinsci.plugins.gwt.GenericCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>jenkins-generic-webhook-trigger-plugin_uuid</name>
+          <value>5e418c12-2c3a-40e6-99dc-95c6a6733064</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames class="empty-list"/>
+    </hudson.model.ParametersAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>5940</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>5935</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@740.va_2701257fe8d">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83">
+      <stagesUUID>691c9c89-c221-4a4c-8fb9-a51be5647074</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2214.vb_b_34b_2ea_9b_83">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Clean Workspace</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>cleanWs</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map"/>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Checkout Code</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>git</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>branch</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">start</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>credentialsId</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">github-cred</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>url</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database.git</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Compile Code</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">mvn compile</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Run Test-cases</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">mvn test</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Trivy FS Scan </name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string"> trivy fs --format table -o cicd.html . </value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>SonarQube:Code Quality Check</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        <name>withSonarQubeEnv</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                          <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                            <value class="string">sonar-server</value>
+                          </value>
+                        </args>
+                        <children>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>sh</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>script</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                    <value class="string">&quot;&quot;&quot; $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectKey=cicd -Dsonar.projectName=cicd -Dsonar.java.binaries=target &quot;&quot;&quot;</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </children>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Build &amp; Publish Artifacts to Nexus</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        <name>withMaven</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>globalMavenSettingsConfig</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">maven-settings-srushti</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>jdk</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string"></value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>maven</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">maven3</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>mavenSettingsConfig</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string"></value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>traceability</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="boolean">true</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                        <children>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>sh</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>script</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="string">mvn deploy</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </children>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Build &amp; Tag Docker image</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">withDockerRegistry(credentialsId: &apos;docker-cred&apos;) {
+     sh &quot; docker build -t imsrushti/bankapp:latest .&quot;
+                 }</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Docker image scan</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">trivy image --format  table -o cicdimage.html imsrushti/bankapp:latest</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Push Docker image</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">withDockerRegistry(credentialsId: &apos;docker-cred&apos;) {
+                      sh &quot; docker push imsrushti/bankapp:latest&quot;
+                 }</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Deploy Application to K8</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        <name>withKubeConfig</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>caCertificate</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string"></value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>clusterName</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">eks-st</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>contextName</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string"></value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>credentialsId</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">k8-token</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>namespace</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">webapps</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>restrictKubeConfigAccess</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="boolean">false</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>serverUrl</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">https://ABC24B4029B58FBB9C138B4EF43B0493.gr7.ap-south-1.eks.amazonaws.com</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                        <children>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>sh</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>script</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="string">kubectl apply -f ds.yaml -n webapps</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>sleep</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>time</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="int">30</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </children>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Verify Deployment</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        <name>withKubeConfig</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>caCertificate</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string"></value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>clusterName</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">eks-st</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>contextName</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string"></value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>credentialsId</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">k8-token</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>namespace</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">webapps</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>restrictKubeConfigAccess</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="boolean">false</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>serverUrl</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">https://ABC24B4029B58FBB9C138B4EF43B0493.gr7.ap-south-1.eks.amazonaws.com</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                        <children>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>sh</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>script</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="string">kubectl get svc -n webapps</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </children>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>691c9c89-c221-4a4c-8fb9-a51be5647074</uuid>
+          </stages>
+          <environment>
+            <variables class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>SCANNER_HOME</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                  <value class="string">${&apos;sonar-scanner&apos;}</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+              </entry>
+            </variables>
+          </environment>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+          <tools>
+            <tools class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>maven</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">maven3</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+            </tools>
+          </tools>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1384.vf0a_2ed06f9c6">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@5.5.2">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/start</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@5.0.0">
+              <sha1>8f3ada1033012a25b2a8e6219af015dc3a1aa365</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/start</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>33</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@427.v4ca_6512e7df1">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <hudson.plugins.sonar.action.SonarMarkerAction plugin="sonar@2.17.2"/>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3969.vdc9d3a_efcc6a_">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <hudson.plugins.sonar.action.SonarAnalysisAction plugin="sonar@2.17.2">
+      <installationName>sonar-server</installationName>
+      <installationUrl>http://localhost:9000</installationUrl>
+      <ceTaskId>AZLzd9oF3wM5fgnpheML</ceTaskId>
+      <url>http://localhost:9000/dashboard?id=cicd</url>
+      <serverUrl>http://localhost:9000</serverUrl>
+      <isNew>true</isNew>
+      <isSkipped>false</isSkipped>
+    </hudson.plugins.sonar.action.SonarAnalysisAction>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-SNAPSHOT.jar</string>
+          <string>54e3f1e65440f009a90910e1404c6395</string>
+        </entry>
+        <entry>
+          <string>com/example/bankapp/0.0.1-SNAPSHOT/bankapp-0.0.1-SNAPSHOT.pom</string>
+          <string>f756baa7ffec5790c1e93e4442d5240d</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1304.vc85a_b_ca_96613">
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>1</totalCount>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+    <org.jenkinsci.plugins.pipeline.maven.publishers.MavenReport plugin="pipeline-maven@1457.vf7a_de13b_c0d4"/>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>9</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>7</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>269322</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+    <hudson.plugins.sonar.action.SonarCacheAction plugin="sonar@2.17.2">
+      <infoByTaskId class="concurrent-hash-map"/>
+    </hudson.plugins.sonar.action.SonarCacheAction>
+  </actions>
+  <queueId>64</queueId>
+  <timestamp>1730661467329</timestamp>
+  <startTime>1730661467351</startTime>
+  <result>SUCCESS</result>
+  <duration>270126</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>pipeline {
+    agent any
+    tools {
+        maven &apos;maven3&apos;
+    }
+    environment{
+        
+        // creating variable for home directory of scanner tool
+        SCANNER_HOME=tool &apos;sonar-scanner&apos;
+        
+    }
+    stages {
+        
+        stage(&apos;Clean Workspace&apos;) {
+            steps {
+                 cleanWs()
+            }
+        }
+        stage(&apos;Checkout Code&apos;) {
+            steps {
+               git branch: &apos;start&apos;, credentialsId: &apos;github-cred&apos;, url: &apos;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database.git&apos;
+            }
+        }
+        
+        stage(&apos;Compile Code&apos;) {
+            steps {
+                sh &apos;mvn compile&apos;
+            }
+        }
+        
+        stage(&apos;Run Test-cases&apos;) {
+            steps {
+                sh &apos;mvn test&apos;
+            }
+        }
+        
+        stage(&apos;Trivy FS Scan &apos;) {
+            steps {
+               sh  &quot; trivy fs --format table -o cicd.html . &quot;
+            }
+        }
+        
+        stage(&apos;SonarQube:Code Quality Check&apos;) {
+            steps {
+                withSonarQubeEnv(&apos;sonar-server&apos;) {
+                 sh &quot;&quot;&quot; $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectKey=cicd -Dsonar.projectName=cicd -Dsonar.java.binaries=target &quot;&quot;&quot;
+                }   
+            }
+        }
+        
+        stage(&apos;Build &amp; Publish Artifacts to Nexus&apos;) {
+            steps {
+            withMaven(globalMavenSettingsConfig: &apos;maven-settings-srushti&apos;, jdk: &apos;&apos;, maven: &apos;maven3&apos;, mavenSettingsConfig: &apos;&apos;, traceability: true) {
+                  sh &quot;mvn deploy&quot;   
+}
+            }
+        }
+        
+        stage(&apos;Build &amp; Tag Docker image&apos;) {
+            steps {
+                script{
+                withDockerRegistry(credentialsId: &apos;docker-cred&apos;) {
+     sh &quot; docker build -t imsrushti/bankapp:latest .&quot;
+                 }
+                    
+                }
+            }
+        }
+        stage(&apos;Docker image scan&apos;) {
+            steps {
+            sh &quot;trivy image --format  table -o cicdimage.html imsrushti/bankapp:latest&quot;
+            }
+        }
+        
+        stage(&apos;Push Docker image&apos;) {
+            steps {
+               script{
+                withDockerRegistry(credentialsId: &apos;docker-cred&apos;) {
+                      sh &quot; docker push imsrushti/bankapp:latest&quot;
+                 }
+                    
+                }
+            }
+        }
+        
+        
+        
+        stage(&apos;Deploy Application to K8&apos;) {
+            steps {
+              
+              withKubeConfig(caCertificate: &apos;&apos;, clusterName: &apos;eks-st&apos;, contextName: &apos;&apos;, credentialsId: &apos;k8-token&apos;, namespace: &apos;webapps&apos;, restrictKubeConfigAccess: false, serverUrl: &apos;https://ABC24B4029B58FBB9C138B4EF43B0493.gr7.ap-south-1.eks.amazonaws.com&apos;)
+              {
+             sh &apos;kubectl apply -f ds.yaml -n webapps&apos;
+             sleep 30
+               } 
+                
+            }
+        }
+        
+        stage(&apos;Verify Deployment&apos;) {
+            steps {
+              
+              withKubeConfig(caCertificate: &apos;&apos;, clusterName: &apos;eks-st&apos;, contextName: &apos;&apos;, credentialsId: &apos;k8-token&apos;, namespace: &apos;webapps&apos;, restrictKubeConfigAccess: false, serverUrl: &apos;https://ABC24B4029B58FBB9C138B4EF43B0493.gr7.ap-south-1.eks.amazonaws.com&apos;)
+              {
+             sh &apos;kubectl get svc -n webapps&apos;
+               } 
+                
+            }
+        }
+        
+    }
+}
+</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>3211459992</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>359796236</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>8940387330</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>15150068558</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>120654274</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>6656906905</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set"/>
+    <sandbox>true</sandbox>
+    <iota>187</iota>
+    <head>1:187</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@5.5.2">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database.git</url>
+            <credentialsId>github-cred</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/start</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>start</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/CICD</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/CICD/builds/33/changelog14003565476044870925.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

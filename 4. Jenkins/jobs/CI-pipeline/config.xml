@@ -1,0 +1,188 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1436.vfa_244484591f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>DOCKER_TAG</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>DOCKER_TAG</name>
+          <description>Docker tag</description>
+          <defaultValue>latest</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3969.vdc9d3a_efcc6a_">
+    <script>pipeline {
+    agent any
+    tools{
+        maven &apos;maven3&apos;
+    }
+    
+    parameters{
+       string(name: &apos;DOCKER_TAG&apos; , defaultValue: &apos;latest&apos;, description: &apos;Docker tag&apos; )
+    }
+    environment {
+        SCANNER_HOME = tool &apos;sonar-scanner&apos;
+    }
+    stages {
+     
+        stage(&quot;Clean Workspace&quot;){
+            steps{
+                cleanWs()
+            }
+            
+        }
+     
+     
+        stage(&apos;Git Checkout&apos;) {
+            steps {
+                git branch: &apos;main&apos;, credentialsId: &apos;github-cred&apos;, url: &apos;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-BankApp-CI.git&apos;
+            }
+        }
+        
+        stage(&apos;Compile&apos;) {
+            steps {
+                  sh &quot;mvn compile&quot;
+            }
+        }
+        
+        stage(&apos;test&apos;) {
+            steps {
+                sh &quot;mvn test -DskipTests=true&quot;
+             }
+        }
+        
+        stage(&apos;file System Scan&apos;) {
+            steps {
+                 sh &quot;trivy fs --format table -o fs.html .&quot;
+                
+            }
+        }
+        
+        stage(&apos;Sonar Analysis&apos;) {
+            steps {
+                
+                withSonarQubeEnv(&apos;sonar-server&apos;) 
+                {
+                    //   refers to URL also ,credentials also 
+                    // execute shell commands to run scanner
+                    sh &apos;&apos;&apos; $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=bankapp -Dsonar.projectKey=bankapp -Dsonar.java.binaries=target&apos;&apos;&apos;
+                }
+            }
+        }
+        
+        
+        // build app , generate artifact, publish to Nexus
+        stage(&apos;Build &amp; Publish Nexus&apos;) {
+            steps {
+                withMaven(globalMavenSettingsConfig: &apos;maven-settings-srushti&apos;, jdk: &apos;&apos;, maven: &apos;maven3&apos;, mavenSettingsConfig: &apos;&apos;, traceability: true) {
+                             sh &apos;mvn deploy -DskipTests=true&apos;
+                   }
+                }
+            }
+        
+         stage(&apos;docker build and Tag&apos;) {
+            // docker comamnds need to be run in a script 
+            steps {
+                script{withDockerRegistry(credentialsId: &apos;docker-cred&apos;) {
+                      sh &quot;docker build -t imsrushti/bankapp:${params.DOCKER_TAG} .&quot;   
+                }
+                    
+                }
+            }
+        }
+        
+        stage(&apos;Docker Image Scan&apos;) {
+            steps {
+                 sh &quot;trivy image  --format table -o dimage.html imsrushti/bankapp:${params.DOCKER_TAG}&quot;
+                
+            }
+        }
+        
+        stage(&apos;docker image push&apos;) {
+            // docker comamnds need to be run in a script 
+            steps {
+                script{withDockerRegistry(credentialsId: &apos;docker-cred&apos;) {
+                      sh &quot;docker push imsrushti/bankapp:${params.DOCKER_TAG}&quot;
+                      
+                      }
+                    
+                }
+            }
+        }
+        
+        stage(&quot;Update YAML Manifests in CD repo&quot;)
+        {
+            steps{ 
+               script{
+                   withCredentials([gitUsernamePassword(credentialsId: &apos;github-cred&apos;, gitToolName: &apos;Default&apos;)]) { 
+                        //   rm -rf Multi-Tier-BankApp-CD
+                    //   Clone Repo, list files,replace pattern using sed ( specified editor)
+                       sh &apos;&apos;&apos;
+                   
+                       git clone https://github.com/SRUSHTI-AGARWAL/Multi-Tier-BankApp-CD.git 
+                       cd Multi-Tier-BankApp-CD
+                       ls -l bankapp
+                       repo_dir=$(pwd)
+                       sed -i &apos;s|image: imsrushti/bankapp:.*|image: imsrushti/bankapp:&apos;&quot;${DOCKER_TAG}&quot;&apos;|&apos; ${repo_dir}/bankapp/bankapp-ds.yml
+
+                    &apos;&apos;&apos;
+                    
+                    sh &apos;&apos;&apos;
+                    echo &quot;Updated YAML file contents&quot;
+                    cat Multi-Tier-BankApp-CD/bankapp/bankapp-ds.yml
+                     &apos;&apos;&apos;
+                    //  configure git for committing changes and pushing
+                    sh &apos;&apos;&apos;
+                    cd Multi-Tier-BankApp-CD
+                    git config user.email &quot;ssd125agarwal@gmail.com&quot;
+                    git config user.name &quot;SRUSHTI-AGARWAL&quot;
+                    &apos;&apos;&apos;
+                    // Commit and push the updated YAML file back to CD repo
+                    sh &apos;&apos;&apos;
+                    cd Multi-Tier-BankApp-CD
+                    ls 
+                    git add bankapp/bankapp-ds.yml
+                    git commit -m &quot;Update images to ${DOCKER_TAG}&quot;
+                    git push origin main
+                    &apos;&apos;&apos;
+                    
+                   }
+               } 
+            }
+            }
+            
+        
+        
+         
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

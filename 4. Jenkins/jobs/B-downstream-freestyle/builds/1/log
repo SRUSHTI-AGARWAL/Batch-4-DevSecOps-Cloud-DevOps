@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4CqvKiXyGr9JCn1e/32WYmqu+PZbOlQgK6tlA4fNf78yAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JH1H3dKC4pKi1MRc3bSi1NTiksqcVH0AQV0uI88AAAA=[0mA-upstream-freestyle" build number [8mha:////4IbkpmUn1scBJA9/YNbaJbP9EL0slHF+vu69CZSsqTZXAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmn9rPwkfUfd0oLikqLUxFzdtKLU1OKSypxUfUMAdIuXWNAAAAA=[0m1
+originally caused by:
+ Started by user [8mha:////4K/v86KtkBqO/MFEggpHgMwf449gpzZRe1UgJgEfgLl3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/B-downstream-freestyle
+[B-downstream-freestyle] $ /bin/sh -xe /tmp/jenkins18039941750204946255.sh
++ echo Hello from B
+Hello from B
+Finished: SUCCESS

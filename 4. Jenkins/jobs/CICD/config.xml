@@ -1,0 +1,169 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1436.vfa_244484591f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <org.jenkinsci.plugins.gwt.GenericTrigger plugin="generic-webhook-trigger@2.2.5">
+          <spec></spec>
+          <genericVariables>
+            <org.jenkinsci.plugins.gwt.GenericVariable>
+              <expressionType>JSONPath</expressionType>
+              <key>ref</key>
+              <value>$.ref</value>
+              <regexpFilter></regexpFilter>
+              <defaultValue></defaultValue>
+            </org.jenkinsci.plugins.gwt.GenericVariable>
+          </genericVariables>
+          <regexpFilterText>$ref</regexpFilterText>
+          <regexpFilterExpression>refs/heads/start</regexpFilterExpression>
+          <printPostContent>false</printPostContent>
+          <printContributedVariables>false</printContributedVariables>
+          <causeString>Generic Cause</causeString>
+          <token></token>
+          <tokenCredentialId>webhook-token</tokenCredentialId>
+          <silentResponse>false</silentResponse>
+          <overrideQuietPeriod>false</overrideQuietPeriod>
+          <shouldNotFlattern>false</shouldNotFlattern>
+          <allowSeveralTriggersPerBuild>false</allowSeveralTriggersPerBuild>
+        </org.jenkinsci.plugins.gwt.GenericTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3969.vdc9d3a_efcc6a_">
+    <script>pipeline {
+    agent any
+    tools {
+        maven &apos;maven3&apos;
+    }
+    environment{
+        
+        // creating variable for home directory of scanner tool
+        SCANNER_HOME=tool &apos;sonar-scanner&apos;
+        
+    }
+    stages {
+        
+        stage(&apos;Clean Workspace&apos;) {
+            steps {
+                 cleanWs()
+            }
+        }
+        stage(&apos;Checkout Code&apos;) {
+            steps {
+               git branch: &apos;start&apos;, credentialsId: &apos;github-cred&apos;, url: &apos;https://github.com/SRUSHTI-AGARWAL/Multi-Tier-With-Database.git&apos;
+            }
+        }
+        
+        stage(&apos;Compile Code&apos;) {
+            steps {
+                sh &apos;mvn compile&apos;
+            }
+        }
+        
+        stage(&apos;Run Test-cases&apos;) {
+            steps {
+                sh &apos;mvn test&apos;
+            }
+        }
+        
+        stage(&apos;Trivy FS Scan &apos;) {
+            steps {
+               sh  &quot; trivy fs --format table -o cicd.html . &quot;
+            }
+        }
+        
+        stage(&apos;SonarQube:Code Quality Check&apos;) {
+            steps {
+                withSonarQubeEnv(&apos;sonar-server&apos;) {
+                 sh &quot;&quot;&quot; $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectKey=cicd -Dsonar.projectName=cicd -Dsonar.java.binaries=target &quot;&quot;&quot;
+                }   
+            }
+        }
+        
+        stage(&apos;Build &amp; Publish Artifacts to Nexus&apos;) {
+            steps {
+            withMaven(globalMavenSettingsConfig: &apos;maven-settings-srushti&apos;, jdk: &apos;&apos;, maven: &apos;maven3&apos;, mavenSettingsConfig: &apos;&apos;, traceability: true) {
+                  sh &quot;mvn deploy&quot;   
+}
+            }
+        }
+        
+        stage(&apos;Build &amp; Tag Docker image&apos;) {
+            steps {
+                script{
+                withDockerRegistry(credentialsId: &apos;docker-cred&apos;) {
+     sh &quot; docker build -t imsrushti/bankapp:latest .&quot;
+                 }
+                    
+                }
+            }
+        }
+        stage(&apos;Docker image scan&apos;) {
+            steps {
+            sh &quot;trivy image --format  table -o cicdimage.html imsrushti/bankapp:latest&quot;
+            }
+        }
+        
+        stage(&apos;Push Docker image&apos;) {
+            steps {
+               script{
+                withDockerRegistry(credentialsId: &apos;docker-cred&apos;) {
+                      sh &quot; docker push imsrushti/bankapp:latest&quot;
+                 }
+                    
+                }
+            }
+        }
+        
+        
+        
+        stage(&apos;Deploy Application to K8&apos;) {
+            steps {
+              
+              withKubeConfig(caCertificate: &apos;&apos;, clusterName: &apos;eks-st&apos;, contextName: &apos;&apos;, credentialsId: &apos;k8-token&apos;, namespace: &apos;webapps&apos;, restrictKubeConfigAccess: false, serverUrl: &apos;https://ABC24B4029B58FBB9C138B4EF43B0493.gr7.ap-south-1.eks.amazonaws.com&apos;)
+              {
+             sh &apos;kubectl apply -f ds.yaml -n webapps&apos;
+             sleep 30
+               } 
+                
+            }
+        }
+        
+        stage(&apos;Verify Deployment&apos;) {
+            steps {
+              
+              withKubeConfig(caCertificate: &apos;&apos;, clusterName: &apos;eks-st&apos;, contextName: &apos;&apos;, credentialsId: &apos;k8-token&apos;, namespace: &apos;webapps&apos;, restrictKubeConfigAccess: false, serverUrl: &apos;https://ABC24B4029B58FBB9C138B4EF43B0493.gr7.ap-south-1.eks.amazonaws.com&apos;)
+              {
+             sh &apos;kubectl get svc -n webapps&apos;
+               } 
+                
+            }
+        }
+        
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
